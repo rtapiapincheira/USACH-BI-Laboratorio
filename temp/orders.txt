@@ -61,18 +61,18 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10307;LONEP;2;18-10-1994 0:00:00;15-11-1994 0:00:00;26-10-1994 0:00:00;2;$ 0,56;Lonesome Pine Restaurant;89 Chiaroscuro Rd.;Portland;OR;97219;Estados Unidos
 10308;ANATR;7;19-10-1994 0:00:00;16-11-1994 0:00:00;25-10-1994 0:00:00;3;$ 1,61;Ana Trujillo Emparedados y helados;Avda. de la Constitución 2222;México D.F.;;05021;México
 10309;HUNGO;3;20-10-1994 0:00:00;17-11-1994 0:00:00;23-11-1994 0:00:00;1;$ 47,30;Hungry Owl All-Night Grocers;8 Johnstown Road;Cork;Co. Cork;;Irlanda
-10310;THEBI;8;21-10-1994 0:00:00;18-11-1994 0:00:00;28-10-1994 0:00:00;2;$ 17,52;The Big Cheese;89 Jefferson Way Suite 2;Portland;OR;97201;Estados Unidos
+10310;THEBI;8;21-10-1994 0:00:00;18-11-1994 0:00:00;28-10-1994 0:00:00;2;$ 17,52;The Big Cheese;89 Jefferson WaySuite 2;Portland;OR;97201;Estados Unidos
 10311;DUMON;1;21-10-1994 0:00:00;4-11-1994 0:00:00;27-10-1994 0:00:00;3;$ 24,69;Du monde entier;67, rue des Cinquante Otages;Nantes;;44000;Francia
 10312;WANDK;2;24-10-1994 0:00:00;21-11-1994 0:00:00;3-11-1994 0:00:00;2;$ 40,26;Die Wandernde Kuh;Adenauerallee 900;Stuttgart;;70563;Alemania
 10313;QUICK;2;25-10-1994 0:00:00;22-11-1994 0:00:00;4-11-1994 0:00:00;2;$ 1,96;QUICK-Stop;Taucherstraße 10;Cunewalde;;01307;Alemania
 10314;RATTC;1;26-10-1994 0:00:00;23-11-1994 0:00:00;4-11-1994 0:00:00;2;$ 74,16;Rattlesnake Canyon Grocery;2817 Milton Dr.;Albuquerque;NM;87110;Estados Unidos
-10315;ISLAT;4;27-10-1994 0:00:00;24-11-1994 0:00:00;3-11-1994 0:00:00;2;$ 41,76;Island Trading;Garden House Crowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
+10315;ISLAT;4;27-10-1994 0:00:00;24-11-1994 0:00:00;3-11-1994 0:00:00;2;$ 41,76;Island Trading;Garden HouseCrowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
 10316;RATTC;1;28-10-1994 0:00:00;25-11-1994 0:00:00;8-11-1994 0:00:00;3;$ 150,15;Rattlesnake Canyon Grocery;2817 Milton Dr.;Albuquerque;NM;87110;Estados Unidos
 10317;LONEP;6;31-10-1994 0:00:00;28-11-1994 0:00:00;10-11-1994 0:00:00;1;$ 12,69;Lonesome Pine Restaurant;89 Chiaroscuro Rd.;Portland;OR;97219;Estados Unidos
-10318;ISLAT;8;1-11-1994 0:00:00;29-11-1994 0:00:00;4-11-1994 0:00:00;2;$ 4,73;Island Trading;Garden House Crowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
+10318;ISLAT;8;1-11-1994 0:00:00;29-11-1994 0:00:00;4-11-1994 0:00:00;2;$ 4,73;Island Trading;Garden HouseCrowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
 10319;TORTU;7;2-11-1994 0:00:00;30-11-1994 0:00:00;11-11-1994 0:00:00;3;$ 64,50;Tortuga Restaurante;Avda. Azteca 123;México D.F.;;05033;México
 10320;WARTH;5;3-11-1994 0:00:00;17-11-1994 0:00:00;18-11-1994 0:00:00;3;$ 34,57;Wartian Herkku;Torikatu 38;Oulu;;90110;Finlandia
-10321;ISLAT;3;3-11-1994 0:00:00;1-12-1994 0:00:00;11-11-1994 0:00:00;2;$ 3,43;Island Trading;Garden House Crowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
+10321;ISLAT;3;3-11-1994 0:00:00;1-12-1994 0:00:00;11-11-1994 0:00:00;2;$ 3,43;Island Trading;Garden HouseCrowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
 10322;PERIC;7;4-11-1994 0:00:00;2-12-1994 0:00:00;23-11-1994 0:00:00;3;$ 0,40;Pericles Comidas clásicas;Calle Dr. Jorge Cash 321;México D.F.;;05033;México
 10323;KOENE;4;7-11-1994 0:00:00;5-12-1994 0:00:00;14-11-1994 0:00:00;1;$ 4,88;Königlich Essen;Maubelstr. 90;Brandenburg;;14776;Alemania
 10324;SAVEA;9;8-11-1994 0:00:00;6-12-1994 0:00:00;10-11-1994 0:00:00;1;$ 214,27;Save-a-lot Markets;187 Suffolk Ln.;Boise;ID;83720;Estados Unidos
@@ -106,7 +106,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10352;FURIB;3;13-12-1994 0:00:00;27-12-1994 0:00:00;19-12-1994 0:00:00;3;$ 1,30;Furia Bacalhau e Frutos do Mar;Jardim das rosas n. 32;Lisboa;;1675;Portugal
 10353;PICCO;7;14-12-1994 0:00:00;11-1-1995 0:00:00;26-12-1994 0:00:00;3;$ 360,63;Piccolo und mehr;Geislweg 14;Salzburg;;5020;Austria
 10354;PERIC;8;15-12-1994 0:00:00;12-1-1995 0:00:00;21-12-1994 0:00:00;3;$ 53,80;Pericles Comidas clásicas;Calle Dr. Jorge Cash 321;México D.F.;;05033;México
-10355;AROUT;6;16-12-1994 0:00:00;13-1-1995 0:00:00;21-12-1994 0:00:00;1;$ 41,95;Around the Horn;Brook Farm Stratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
+10355;AROUT;6;16-12-1994 0:00:00;13-1-1995 0:00:00;21-12-1994 0:00:00;1;$ 41,95;Around the Horn;Brook FarmStratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
 10356;WANDK;6;19-12-1994 0:00:00;16-1-1995 0:00:00;28-12-1994 0:00:00;2;$ 36,71;Die Wandernde Kuh;Adenauerallee 900;Stuttgart;;70563;Alemania
 10357;LILAS;1;20-12-1994 0:00:00;17-1-1995 0:00:00;2-1-1995 0:00:00;3;$ 34,88;LILA-Supermercado;Carrera 52 con Ave. Bolívar #65-98 Llano Largo;Barquisimeto;Lara;3508;Venezuela
 10358;LAMAI;5;21-12-1994 0:00:00;18-1-1995 0:00:00;28-12-1994 0:00:00;1;$ 19,64;La maison d'Asie;1 rue Alsace-Lorraine;Toulouse;;31000;Francia
@@ -126,7 +126,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10372;QUEEN;5;4-1-1995 0:00:00;1-2-1995 0:00:00;9-1-1995 0:00:00;2;$ 890,78;Queen Cozinha;Alameda dos Canàrios, 891;São Paulo;SP;05487-020;Brasil
 10373;HUNGO;4;5-1-1995 0:00:00;2-2-1995 0:00:00;11-1-1995 0:00:00;3;$ 124,12;Hungry Owl All-Night Grocers;8 Johnstown Road;Cork;Co. Cork;;Irlanda
 10374;WOLZA;1;5-1-1995 0:00:00;2-2-1995 0:00:00;9-1-1995 0:00:00;3;$ 3,94;Wolski Zajazd;ul. Filtrowa 68;Warszawa;;01-012;Polonia
-10375;HUNGC;3;6-1-1995 0:00:00;3-2-1995 0:00:00;9-1-1995 0:00:00;2;$ 20,12;Hungry Coyote Import Store;City Center Plaza 516 Main St.;Elgin;OR;97827;Estados Unidos
+10375;HUNGC;3;6-1-1995 0:00:00;3-2-1995 0:00:00;9-1-1995 0:00:00;2;$ 20,12;Hungry Coyote Import Store;City Center Plaza516 Main St.;Elgin;OR;97827;Estados Unidos
 10376;MEREP;1;9-1-1995 0:00:00;6-2-1995 0:00:00;13-1-1995 0:00:00;2;$ 20,39;Mère Paillarde;43 rue St. Laurent;Montréal;Québec;H1J 1C3;Canadá
 10377;SEVES;1;9-1-1995 0:00:00;6-2-1995 0:00:00;13-1-1995 0:00:00;3;$ 22,21;Seven Seas Imports;90 Wadhurst Rd.;London;;OX15 4NB;Reino Unido
 10378;FOLKO;5;10-1-1995 0:00:00;7-2-1995 0:00:00;19-1-1995 0:00:00;3;$ 5,44;Folk och fä HB;Åkergatan 24;Bräcke;;S-844 67;Suecia
@@ -134,7 +134,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10380;HUNGO;8;12-1-1995 0:00:00;9-2-1995 0:00:00;16-2-1995 0:00:00;3;$ 35,03;Hungry Owl All-Night Grocers;8 Johnstown Road;Cork;Co. Cork;;Irlanda
 10381;LILAS;3;12-1-1995 0:00:00;9-2-1995 0:00:00;13-1-1995 0:00:00;3;$ 7,99;LILA-Supermercado;Carrera 52 con Ave. Bolívar #65-98 Llano Largo;Barquisimeto;Lara;3508;Venezuela
 10382;ERNSH;4;13-1-1995 0:00:00;10-2-1995 0:00:00;16-1-1995 0:00:00;1;$ 94,77;Ernst Handel;Kirchgasse 6;Graz;;8010;Austria
-10383;AROUT;8;16-1-1995 0:00:00;13-2-1995 0:00:00;18-1-1995 0:00:00;3;$ 34,24;Around the Horn;Brook Farm Stratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
+10383;AROUT;8;16-1-1995 0:00:00;13-2-1995 0:00:00;18-1-1995 0:00:00;3;$ 34,24;Around the Horn;Brook FarmStratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
 10384;BERGS;3;16-1-1995 0:00:00;13-2-1995 0:00:00;20-1-1995 0:00:00;3;$ 168,64;Berglunds snabbköp;Berguvsvägen  8;Luleå;;S-958 22;Suecia
 10385;SPLIR;1;17-1-1995 0:00:00;14-2-1995 0:00:00;23-1-1995 0:00:00;2;$ 30,96;Split Rail Beer & Ale;P.O. Box 555;Lander;WY;82520;Estados Unidos
 10386;FAMIA;9;18-1-1995 0:00:00;1-2-1995 0:00:00;25-1-1995 0:00:00;3;$ 13,99;Familia Arquibaldo;Rua Orós, 92;São Paulo;SP;05442-030;Brasil
@@ -145,7 +145,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10391;DRACD;3;23-1-1995 0:00:00;20-2-1995 0:00:00;31-1-1995 0:00:00;3;$ 5,45;Drachenblut Delikatessen;Walserweg 21;Aachen;;52066;Alemania
 10392;PICCO;2;24-1-1995 0:00:00;21-2-1995 0:00:00;1-2-1995 0:00:00;3;$ 122,46;Piccolo und mehr;Geislweg 14;Salzburg;;5020;Austria
 10393;SAVEA;1;25-1-1995 0:00:00;22-2-1995 0:00:00;3-2-1995 0:00:00;3;$ 126,56;Save-a-lot Markets;187 Suffolk Ln.;Boise;ID;83720;Estados Unidos
-10394;HUNGC;1;25-1-1995 0:00:00;22-2-1995 0:00:00;3-2-1995 0:00:00;3;$ 30,34;Hungry Coyote Import Store;City Center Plaza 516 Main St.;Elgin;OR;97827;Estados Unidos
+10394;HUNGC;1;25-1-1995 0:00:00;22-2-1995 0:00:00;3-2-1995 0:00:00;3;$ 30,34;Hungry Coyote Import Store;City Center Plaza516 Main St.;Elgin;OR;97827;Estados Unidos
 10395;HILAA;6;26-1-1995 0:00:00;23-2-1995 0:00:00;3-2-1995 0:00:00;1;$ 184,41;HILARIÓN-Abastos;Carrera 22 con Ave. Carlos Soublette #8-35;San Cristóbal;Táchira;5022;Venezuela
 10396;FRANK;1;27-1-1995 0:00:00;10-2-1995 0:00:00;6-2-1995 0:00:00;3;$ 135,35;Frankenversand;Berliner Platz 43;München;;80805;Alemania
 10397;PRINI;5;27-1-1995 0:00:00;24-2-1995 0:00:00;2-2-1995 0:00:00;1;$ 60,26;Princesa Isabel Vinhos;Estrada da saúde n. 58;Lisboa;;1756;Portugal
@@ -160,13 +160,13 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10406;QUEEN;7;7-2-1995 0:00:00;21-3-1995 0:00:00;13-2-1995 0:00:00;1;$ 108,04;Queen Cozinha;Alameda dos Canàrios, 891;São Paulo;SP;05487-020;Brasil
 10407;OTTIK;2;7-2-1995 0:00:00;7-3-1995 0:00:00;2-3-1995 0:00:00;2;$ 91,48;Ottilies Käseladen;Mehrheimerstr. 369;Köln;;50739;Alemania
 10408;FOLIG;8;8-2-1995 0:00:00;8-3-1995 0:00:00;14-2-1995 0:00:00;1;$ 11,26;Folies gourmandes;184, chaussée de Tournai;Lille;;59000;Francia
-10409;OCEAN;3;9-2-1995 0:00:00;9-3-1995 0:00:00;14-2-1995 0:00:00;1;$ 29,83;Océano Atlántico Ltda.;Ing. Gustavo Moncada 8585 Piso 20-A;Buenos Aires;;1010;Argentina
+10409;OCEAN;3;9-2-1995 0:00:00;9-3-1995 0:00:00;14-2-1995 0:00:00;1;$ 29,83;Océano Atlántico Ltda.;Ing. Gustavo Moncada 8585Piso 20-A;Buenos Aires;;1010;Argentina
 10410;BOTTM;3;10-2-1995 0:00:00;10-3-1995 0:00:00;15-2-1995 0:00:00;3;$ 2,40;Bottom-Dollar Markets;23 Tsawassen Blvd.;Tsawassen;BC;T2F 8M4;Canadá
 10411;BOTTM;9;10-2-1995 0:00:00;10-3-1995 0:00:00;21-2-1995 0:00:00;3;$ 23,65;Bottom-Dollar Markets;23 Tsawassen Blvd.;Tsawassen;BC;T2F 8M4;Canadá
 10412;WARTH;8;13-2-1995 0:00:00;13-3-1995 0:00:00;15-2-1995 0:00:00;2;$ 3,77;Wartian Herkku;Torikatu 38;Oulu;;90110;Finlandia
 10413;LAMAI;3;14-2-1995 0:00:00;14-3-1995 0:00:00;16-2-1995 0:00:00;2;$ 95,66;La maison d'Asie;1 rue Alsace-Lorraine;Toulouse;;31000;Francia
 10414;FAMIA;2;14-2-1995 0:00:00;14-3-1995 0:00:00;17-2-1995 0:00:00;3;$ 21,48;Familia Arquibaldo;Rua Orós, 92;São Paulo;SP;05442-030;Brasil
-10415;HUNGC;3;15-2-1995 0:00:00;15-3-1995 0:00:00;24-2-1995 0:00:00;1;$ 0,20;Hungry Coyote Import Store;City Center Plaza 516 Main St.;Elgin;OR;97827;Estados Unidos
+10415;HUNGC;3;15-2-1995 0:00:00;15-3-1995 0:00:00;24-2-1995 0:00:00;1;$ 0,20;Hungry Coyote Import Store;City Center Plaza516 Main St.;Elgin;OR;97827;Estados Unidos
 10416;WARTH;8;16-2-1995 0:00:00;16-3-1995 0:00:00;27-2-1995 0:00:00;3;$ 22,72;Wartian Herkku;Torikatu 38;Oulu;;90110;Finlandia
 10417;SIMOB;4;16-2-1995 0:00:00;16-3-1995 0:00:00;28-2-1995 0:00:00;3;$ 70,29;Simons bistro;Vinbæltet 34;København;;1734;Dinamarca
 10418;QUICK;4;17-2-1995 0:00:00;17-3-1995 0:00:00;24-2-1995 0:00:00;1;$ 17,55;QUICK-Stop;Taucherstraße 10;Cunewalde;;01307;Alemania
@@ -186,7 +186,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10432;SPLIR;3;3-3-1995 0:00:00;17-3-1995 0:00:00;10-3-1995 0:00:00;2;$ 4,34;Split Rail Beer & Ale;P.O. Box 555;Lander;WY;82520;Estados Unidos
 10433;PRINI;3;6-3-1995 0:00:00;3-4-1995 0:00:00;4-4-1995 0:00:00;3;$ 73,83;Princesa Isabel Vinhos;Estrada da saúde n. 58;Lisboa;;1756;Portugal
 10434;FOLKO;3;6-3-1995 0:00:00;3-4-1995 0:00:00;16-3-1995 0:00:00;2;$ 17,92;Folk och fä HB;Åkergatan 24;Bräcke;;S-844 67;Suecia
-10435;CONSH;8;7-3-1995 0:00:00;18-4-1995 0:00:00;10-3-1995 0:00:00;2;$ 9,21;Consolidated Holdings;Berkeley Gardens 12  Brewery;London;;WX1 6LT;Reino Unido
+10435;CONSH;8;7-3-1995 0:00:00;18-4-1995 0:00:00;10-3-1995 0:00:00;2;$ 9,21;Consolidated Holdings;Berkeley Gardens12  Brewery;London;;WX1 6LT;Reino Unido
 10436;BLONP;3;8-3-1995 0:00:00;5-4-1995 0:00:00;14-3-1995 0:00:00;2;$ 156,66;Blondel père et fils;24, place Kléber;Strasbourg;;67000;Francia
 10437;WARTH;8;8-3-1995 0:00:00;5-4-1995 0:00:00;15-3-1995 0:00:00;1;$ 19,97;Wartian Herkku;Torikatu 38;Oulu;;90110;Finlandia
 10438;TOMSP;3;9-3-1995 0:00:00;6-4-1995 0:00:00;17-3-1995 0:00:00;2;$ 8,24;Toms Spezialitäten;Luisenstr. 48;Münster;;44087;Alemania
@@ -204,7 +204,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10450;VICTE;8;22-3-1995 0:00:00;19-4-1995 0:00:00;11-4-1995 0:00:00;2;$ 7,23;Victuailles en stock;2, rue du Commerce;Lyon;;69004;Francia
 10451;QUICK;4;22-3-1995 0:00:00;5-4-1995 0:00:00;12-4-1995 0:00:00;3;$ 189,09;QUICK-Stop;Taucherstraße 10;Cunewalde;;01307;Alemania
 10452;SAVEA;8;23-3-1995 0:00:00;20-4-1995 0:00:00;29-3-1995 0:00:00;1;$ 140,26;Save-a-lot Markets;187 Suffolk Ln.;Boise;ID;83720;Estados Unidos
-10453;AROUT;1;24-3-1995 0:00:00;21-4-1995 0:00:00;29-3-1995 0:00:00;2;$ 25,36;Around the Horn;Brook Farm Stratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
+10453;AROUT;1;24-3-1995 0:00:00;21-4-1995 0:00:00;29-3-1995 0:00:00;2;$ 25,36;Around the Horn;Brook FarmStratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
 10454;LAMAI;4;24-3-1995 0:00:00;21-4-1995 0:00:00;28-3-1995 0:00:00;3;$ 2,74;La maison d'Asie;1 rue Alsace-Lorraine;Toulouse;;31000;Francia
 10455;WARTH;8;27-3-1995 0:00:00;8-5-1995 0:00:00;3-4-1995 0:00:00;2;$ 180,45;Wartian Herkku;Torikatu 38;Oulu;;90110;Finlandia
 10456;KOENE;8;28-3-1995 0:00:00;9-5-1995 0:00:00;31-3-1995 0:00:00;2;$ 8,12;Königlich Essen;Maubelstr. 90;Brandenburg;;14776;Alemania
@@ -213,7 +213,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10459;VICTE;4;30-3-1995 0:00:00;27-4-1995 0:00:00;31-3-1995 0:00:00;2;$ 25,09;Victuailles en stock;2, rue du Commerce;Lyon;;69004;Francia
 10460;FOLKO;8;31-3-1995 0:00:00;28-4-1995 0:00:00;3-4-1995 0:00:00;1;$ 16,27;Folk och fä HB;Åkergatan 24;Bräcke;;S-844 67;Suecia
 10461;LILAS;1;31-3-1995 0:00:00;28-4-1995 0:00:00;5-4-1995 0:00:00;3;$ 148,61;LILA-Supermercado;Carrera 52 con Ave. Bolívar #65-98 Llano Largo;Barquisimeto;Lara;3508;Venezuela
-10462;CONSH;2;3-4-1995 0:00:00;1-5-1995 0:00:00;18-4-1995 0:00:00;1;$ 6,17;Consolidated Holdings;Berkeley Gardens 12  Brewery;London;;WX1 6LT;Reino Unido
+10462;CONSH;2;3-4-1995 0:00:00;1-5-1995 0:00:00;18-4-1995 0:00:00;1;$ 6,17;Consolidated Holdings;Berkeley Gardens12  Brewery;London;;WX1 6LT;Reino Unido
 10463;SUPRD;5;4-4-1995 0:00:00;2-5-1995 0:00:00;6-4-1995 0:00:00;3;$ 14,78;Suprêmes délices;Boulevard Tirou, 255;Charleroi;;B-6000;Bélgica
 10464;FURIB;4;4-4-1995 0:00:00;2-5-1995 0:00:00;14-4-1995 0:00:00;2;$ 89,00;Furia Bacalhau e Frutos do Mar;Jardim das rosas n. 32;Lisboa;;1675;Portugal
 10465;VAFFE;1;5-4-1995 0:00:00;3-5-1995 0:00:00;14-4-1995 0:00:00;3;$ 145,04;Vaffeljernet;Smagsløget 45;Århus;;8200;Dinamarca
@@ -224,7 +224,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10470;BONAP;4;11-4-1995 0:00:00;9-5-1995 0:00:00;14-4-1995 0:00:00;2;$ 64,56;Bon app';12, rue des Bouchers;Marseille;;13008;Francia
 10471;BSBEV;2;11-4-1995 0:00:00;9-5-1995 0:00:00;18-4-1995 0:00:00;3;$ 45,59;B's Beverages;Fauntleroy Circus;London;;EC2 5NT;Reino Unido
 10472;SEVES;8;12-4-1995 0:00:00;10-5-1995 0:00:00;19-4-1995 0:00:00;1;$ 4,20;Seven Seas Imports;90 Wadhurst Rd.;London;;OX15 4NB;Reino Unido
-10473;ISLAT;1;13-4-1995 0:00:00;27-4-1995 0:00:00;21-4-1995 0:00:00;3;$ 16,37;Island Trading;Garden House Crowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
+10473;ISLAT;1;13-4-1995 0:00:00;27-4-1995 0:00:00;21-4-1995 0:00:00;3;$ 16,37;Island Trading;Garden HouseCrowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
 10474;PERIC;5;13-4-1995 0:00:00;11-5-1995 0:00:00;21-4-1995 0:00:00;2;$ 83,49;Pericles Comidas clásicas;Calle Dr. Jorge Cash 321;México D.F.;;05033;México
 10475;SUPRD;9;14-4-1995 0:00:00;12-5-1995 0:00:00;5-5-1995 0:00:00;1;$ 68,52;Suprêmes délices;Boulevard Tirou, 255;Charleroi;;B-6000;Bélgica
 10476;HILAA;8;17-4-1995 0:00:00;15-5-1995 0:00:00;24-4-1995 0:00:00;3;$ 4,41;HILARIÓN-Abastos;Carrera 22 con Ave. Carlos Soublette #8-35;San Cristóbal;Táchira;5022;Venezuela
@@ -268,7 +268,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10514;ERNSH;3;23-5-1995 0:00:00;20-6-1995 0:00:00;16-6-1995 0:00:00;2;$ 789,95;Ernst Handel;Kirchgasse 6;Graz;;8010;Austria
 10515;QUICK;2;24-5-1995 0:00:00;7-6-1995 0:00:00;23-6-1995 0:00:00;1;$ 204,47;QUICK-Stop;Taucherstraße 10;Cunewalde;;01307;Alemania
 10516;HUNGO;2;25-5-1995 0:00:00;22-6-1995 0:00:00;1-6-1995 0:00:00;3;$ 62,78;Hungry Owl All-Night Grocers;8 Johnstown Road;Cork;Co. Cork;;Irlanda
-10517;NORTS;3;25-5-1995 0:00:00;22-6-1995 0:00:00;30-5-1995 0:00:00;3;$ 32,07;North/South;South House 300 Queensbridge;London;;SW7 1RZ;Reino Unido
+10517;NORTS;3;25-5-1995 0:00:00;22-6-1995 0:00:00;30-5-1995 0:00:00;3;$ 32,07;North/South;South House300 Queensbridge;London;;SW7 1RZ;Reino Unido
 10518;TORTU;4;26-5-1995 0:00:00;9-6-1995 0:00:00;5-6-1995 0:00:00;2;$ 218,15;Tortuga Restaurante;Avda. Azteca 123;México D.F.;;05033;México
 10519;CHOPS;6;29-5-1995 0:00:00;26-6-1995 0:00:00;1-6-1995 0:00:00;3;$ 91,76;Chop-suey Chinese;Hauptstr. 31;Bern;;3012;Suiza
 10520;SANTG;7;30-5-1995 0:00:00;27-6-1995 0:00:00;1-6-1995 0:00:00;1;$ 13,37;Santé Gourmet;Erling Skakkes gate 78;Stavern;;4110;Noruega
@@ -282,7 +282,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10528;GREAL;6;6-6-1995 0:00:00;20-6-1995 0:00:00;9-6-1995 0:00:00;2;$ 3,35;Great Lakes Food Market;2732 Baker Blvd.;Eugene;OR;97403;Estados Unidos
 10529;MAISD;5;7-6-1995 0:00:00;5-7-1995 0:00:00;9-6-1995 0:00:00;2;$ 66,69;Maison Dewey;Rue Joseph-Bens 532;Bruxelles;;B-1180;Bélgica
 10530;PICCO;3;8-6-1995 0:00:00;6-7-1995 0:00:00;12-6-1995 0:00:00;2;$ 339,22;Piccolo und mehr;Geislweg 14;Salzburg;;5020;Austria
-10531;OCEAN;7;8-6-1995 0:00:00;6-7-1995 0:00:00;19-6-1995 0:00:00;1;$ 8,12;Océano Atlántico Ltda.;Ing. Gustavo Moncada 8585 Piso 20-A;Buenos Aires;;1010;Argentina
+10531;OCEAN;7;8-6-1995 0:00:00;6-7-1995 0:00:00;19-6-1995 0:00:00;1;$ 8,12;Océano Atlántico Ltda.;Ing. Gustavo Moncada 8585Piso 20-A;Buenos Aires;;1010;Argentina
 10532;EASTC;7;9-6-1995 0:00:00;7-7-1995 0:00:00;12-6-1995 0:00:00;3;$ 74,46;Eastern Connection;35 King George;London;;WX3 6FW;Reino Unido
 10533;FOLKO;8;12-6-1995 0:00:00;10-7-1995 0:00:00;22-6-1995 0:00:00;1;$ 188,04;Folk och fä HB;Åkergatan 24;Bräcke;;S-844 67;Suecia
 10534;LEHMS;8;12-6-1995 0:00:00;10-7-1995 0:00:00;14-6-1995 0:00:00;2;$ 27,94;Lehmanns Marktstand;Magazinweg 7;Frankfurt a.M.;;60528;Alemania
@@ -309,7 +309,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10555;SAVEA;6;3-7-1995 0:00:00;31-7-1995 0:00:00;5-7-1995 0:00:00;3;$ 252,49;Save-a-lot Markets;187 Suffolk Ln.;Boise;ID;83720;Estados Unidos
 10556;SIMOB;2;4-7-1995 0:00:00;15-8-1995 0:00:00;14-7-1995 0:00:00;1;$ 9,80;Simons bistro;Vinbæltet 34;København;;1734;Dinamarca
 10557;LEHMS;9;4-7-1995 0:00:00;18-7-1995 0:00:00;7-7-1995 0:00:00;2;$ 96,72;Lehmanns Marktstand;Magazinweg 7;Frankfurt a.M.;;60528;Alemania
-10558;AROUT;1;5-7-1995 0:00:00;2-8-1995 0:00:00;11-7-1995 0:00:00;2;$ 72,97;Around the Horn;Brook Farm Stratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
+10558;AROUT;1;5-7-1995 0:00:00;2-8-1995 0:00:00;11-7-1995 0:00:00;2;$ 72,97;Around the Horn;Brook FarmStratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
 10559;BLONP;6;6-7-1995 0:00:00;3-8-1995 0:00:00;14-7-1995 0:00:00;1;$ 8,05;Blondel père et fils;24, place Kléber;Strasbourg;;67000;Francia
 10560;FRANK;8;7-7-1995 0:00:00;4-8-1995 0:00:00;10-7-1995 0:00:00;1;$ 36,65;Frankenversand;Berliner Platz 43;München;;80805;Alemania
 10561;FOLKO;2;7-7-1995 0:00:00;4-8-1995 0:00:00;10-7-1995 0:00:00;2;$ 242,21;Folk och fä HB;Åkergatan 24;Bräcke;;S-844 67;Suecia
@@ -330,7 +330,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10576;TORTU;3;24-7-1995 0:00:00;7-8-1995 0:00:00;31-7-1995 0:00:00;3;$ 18,56;Tortuga Restaurante;Avda. Azteca 123;México D.F.;;05033;México
 10577;TRAIH;9;24-7-1995 0:00:00;4-9-1995 0:00:00;31-7-1995 0:00:00;2;$ 25,41;Trail's Head Gourmet Provisioners;722 DaVinci Blvd.;Kirkland;WA;98034;Estados Unidos
 10578;BSBEV;4;25-7-1995 0:00:00;22-8-1995 0:00:00;25-8-1995 0:00:00;3;$ 29,60;B's Beverages;Fauntleroy Circus;London;;EC2 5NT;Reino Unido
-10579;LETSS;1;26-7-1995 0:00:00;23-8-1995 0:00:00;4-8-1995 0:00:00;2;$ 13,73;Let's Stop N Shop;87 Polk St. Suite 5;San Francisco;CA;94117;Estados Unidos
+10579;LETSS;1;26-7-1995 0:00:00;23-8-1995 0:00:00;4-8-1995 0:00:00;2;$ 13,73;Let's Stop N Shop;87 Polk St.Suite 5;San Francisco;CA;94117;Estados Unidos
 10580;OTTIK;4;27-7-1995 0:00:00;24-8-1995 0:00:00;1-8-1995 0:00:00;3;$ 75,89;Ottilies Käseladen;Mehrheimerstr. 369;Köln;;50739;Alemania
 10581;FAMIA;3;27-7-1995 0:00:00;24-8-1995 0:00:00;2-8-1995 0:00:00;1;$ 3,01;Familia Arquibaldo;Rua Orós, 92;São Paulo;SP;05442-030;Brasil
 10582;BLAUS;3;28-7-1995 0:00:00;25-8-1995 0:00:00;14-8-1995 0:00:00;2;$ 27,71;Blauer See Delikatessen;Forsterstr. 57;Mannheim;;68306;Alemania
@@ -351,7 +351,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10597;PICCO;7;11-8-1995 0:00:00;8-9-1995 0:00:00;18-8-1995 0:00:00;3;$ 35,12;Piccolo und mehr;Geislweg 14;Salzburg;;5020;Austria
 10598;RATTC;1;14-8-1995 0:00:00;11-9-1995 0:00:00;18-8-1995 0:00:00;3;$ 44,42;Rattlesnake Canyon Grocery;2817 Milton Dr.;Albuquerque;NM;87110;Estados Unidos
 10599;BSBEV;6;15-8-1995 0:00:00;26-9-1995 0:00:00;21-8-1995 0:00:00;3;$ 29,98;B's Beverages;Fauntleroy Circus;London;;EC2 5NT;Reino Unido
-10600;HUNGC;4;16-8-1995 0:00:00;13-9-1995 0:00:00;21-8-1995 0:00:00;1;$ 45,13;Hungry Coyote Import Store;City Center Plaza 516 Main St.;Elgin;OR;97827;Estados Unidos
+10600;HUNGC;4;16-8-1995 0:00:00;13-9-1995 0:00:00;21-8-1995 0:00:00;1;$ 45,13;Hungry Coyote Import Store;City Center Plaza516 Main St.;Elgin;OR;97827;Estados Unidos
 10601;HILAA;7;16-8-1995 0:00:00;27-9-1995 0:00:00;22-8-1995 0:00:00;1;$ 58,30;HILARIÓN-Abastos;Carrera 22 con Ave. Carlos Soublette #8-35;San Cristóbal;Táchira;5022;Venezuela
 10602;VAFFE;8;17-8-1995 0:00:00;14-9-1995 0:00:00;22-8-1995 0:00:00;2;$ 2,92;Vaffeljernet;Smagsløget 45;Århus;;8200;Dinamarca
 10603;SAVEA;8;18-8-1995 0:00:00;15-9-1995 0:00:00;8-9-1995 0:00:00;2;$ 48,77;Save-a-lot Markets;187 Suffolk Ln.;Boise;ID;83720;Estados Unidos
@@ -372,7 +372,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10618;MEREP;1;1-9-1995 0:00:00;13-10-1995 0:00:00;8-9-1995 0:00:00;1;$ 154,68;Mère Paillarde;43 rue St. Laurent;Montréal;Québec;H1J 1C3;Canadá
 10619;MEREP;3;4-9-1995 0:00:00;2-10-1995 0:00:00;7-9-1995 0:00:00;3;$ 91,05;Mère Paillarde;43 rue St. Laurent;Montréal;Québec;H1J 1C3;Canadá
 10620;LAUGB;2;5-9-1995 0:00:00;3-10-1995 0:00:00;14-9-1995 0:00:00;3;$ 0,94;Laughing Bacchus Wine Cellars;2319 Elm St.;Vancouver;BC;V3F 2K1;Canadá
-10621;ISLAT;4;5-9-1995 0:00:00;3-10-1995 0:00:00;11-9-1995 0:00:00;2;$ 23,73;Island Trading;Garden House Crowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
+10621;ISLAT;4;5-9-1995 0:00:00;3-10-1995 0:00:00;11-9-1995 0:00:00;2;$ 23,73;Island Trading;Garden HouseCrowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
 10622;RICAR;4;6-9-1995 0:00:00;4-10-1995 0:00:00;11-9-1995 0:00:00;3;$ 50,97;Ricardo Adocicados;Av. Copacabana, 267;Río de Janeiro;RJ;02389-890;Brasil
 10623;FRANK;8;7-9-1995 0:00:00;5-10-1995 0:00:00;12-9-1995 0:00:00;2;$ 97,18;Frankenversand;Berliner Platz 43;München;;80805;Alemania
 10624;THECR;4;7-9-1995 0:00:00;5-10-1995 0:00:00;19-9-1995 0:00:00;2;$ 94,80;The Cracker Box;55 Grizzly Peak Rd.;Butte;MT;59801;Estados Unidos
@@ -411,7 +411,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10657;SAVEA;2;5-10-1995 0:00:00;2-11-1995 0:00:00;16-10-1995 0:00:00;2;$ 352,69;Save-a-lot Markets;187 Suffolk Ln.;Boise;ID;83720;Estados Unidos
 10658;QUICK;4;6-10-1995 0:00:00;3-11-1995 0:00:00;9-10-1995 0:00:00;1;$ 364,15;QUICK-Stop;Taucherstraße 10;Cunewalde;;01307;Alemania
 10659;QUEEN;7;6-10-1995 0:00:00;3-11-1995 0:00:00;11-10-1995 0:00:00;2;$ 105,81;Queen Cozinha;Alameda dos Canàrios, 891;São Paulo;SP;05487-020;Brasil
-10660;HUNGC;8;9-10-1995 0:00:00;6-11-1995 0:00:00;15-11-1995 0:00:00;1;$ 111,29;Hungry Coyote Import Store;City Center Plaza 516 Main St.;Elgin;OR;97827;Estados Unidos
+10660;HUNGC;8;9-10-1995 0:00:00;6-11-1995 0:00:00;15-11-1995 0:00:00;1;$ 111,29;Hungry Coyote Import Store;City Center Plaza516 Main St.;Elgin;OR;97827;Estados Unidos
 10661;HUNGO;7;10-10-1995 0:00:00;7-11-1995 0:00:00;16-10-1995 0:00:00;3;$ 17,55;Hungry Owl All-Night Grocers;8 Johnstown Road;Cork;Co. Cork;;Irlanda
 10662;LONEP;3;10-10-1995 0:00:00;7-11-1995 0:00:00;19-10-1995 0:00:00;2;$ 1,28;Lonesome Pine Restaurant;89 Chiaroscuro Rd.;Portland;OR;97219;Estados Unidos
 10663;BONAP;2;11-10-1995 0:00:00;25-10-1995 0:00:00;3-11-1995 0:00:00;2;$ 113,15;Bon app';12, rue des Bouchers;Marseille;;13008;Francia
@@ -425,7 +425,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10671;FRANR;1;18-10-1995 0:00:00;15-11-1995 0:00:00;25-10-1995 0:00:00;1;$ 30,34;France restauration;54, rue Royale;Nantes;;44000;Francia
 10672;BERGS;9;18-10-1995 0:00:00;1-11-1995 0:00:00;27-10-1995 0:00:00;2;$ 95,75;Berglunds snabbköp;Berguvsvägen  8;Luleå;;S-958 22;Suecia
 10673;WILMK;2;19-10-1995 0:00:00;16-11-1995 0:00:00;20-10-1995 0:00:00;1;$ 22,76;Wilman Kala;Keskuskatu 45;Helsinki;;21240;Finlandia
-10674;ISLAT;4;19-10-1995 0:00:00;16-11-1995 0:00:00;31-10-1995 0:00:00;2;$ 0,90;Island Trading;Garden House Crowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
+10674;ISLAT;4;19-10-1995 0:00:00;16-11-1995 0:00:00;31-10-1995 0:00:00;2;$ 0,90;Island Trading;Garden HouseCrowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
 10675;FRANK;5;20-10-1995 0:00:00;17-11-1995 0:00:00;24-10-1995 0:00:00;2;$ 31,85;Frankenversand;Berliner Platz 43;München;;80805;Alemania
 10676;TORTU;2;23-10-1995 0:00:00;20-11-1995 0:00:00;30-10-1995 0:00:00;2;$ 2,01;Tortuga Restaurante;Avda. Azteca 123;México D.F.;;05033;México
 10677;ANTON;1;23-10-1995 0:00:00;20-11-1995 0:00:00;27-10-1995 0:00:00;3;$ 4,03;Antonio Moreno Taquería;Mataderos  2312;México D.F.;;05023;México
@@ -458,8 +458,8 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10704;QUEEN;6;14-11-1995 0:00:00;12-12-1995 0:00:00;8-12-1995 0:00:00;1;$ 4,78;Queen Cozinha;Alameda dos Canàrios, 891;São Paulo;SP;05487-020;Brasil
 10705;HILAA;9;15-11-1995 0:00:00;13-12-1995 0:00:00;19-12-1995 0:00:00;2;$ 3,52;HILARIÓN-Abastos;Carrera 22 con Ave. Carlos Soublette #8-35;San Cristóbal;Táchira;5022;Venezuela
 10706;OLDWO;8;16-11-1995 0:00:00;14-12-1995 0:00:00;21-11-1995 0:00:00;3;$ 135,63;Old World Delicatessen;2743 Bering St.;Anchorage;AK;99508;Estados Unidos
-10707;AROUT;4;16-11-1995 0:00:00;30-11-1995 0:00:00;23-11-1995 0:00:00;3;$ 21,74;Around the Horn;Brook Farm Stratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
-10708;THEBI;6;17-11-1995 0:00:00;29-12-1995 0:00:00;6-12-1995 0:00:00;2;$ 2,96;The Big Cheese;89 Jefferson Way Suite 2;Portland;OR;97201;Estados Unidos
+10707;AROUT;4;16-11-1995 0:00:00;30-11-1995 0:00:00;23-11-1995 0:00:00;3;$ 21,74;Around the Horn;Brook FarmStratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
+10708;THEBI;6;17-11-1995 0:00:00;29-12-1995 0:00:00;6-12-1995 0:00:00;2;$ 2,96;The Big Cheese;89 Jefferson WaySuite 2;Portland;OR;97201;Estados Unidos
 10709;GOURL;1;17-11-1995 0:00:00;15-12-1995 0:00:00;21-12-1995 0:00:00;3;$ 210,80;Gourmet Lanchonetes;Av. Brasil, 442;Campinas;SP;04876-786;Brasil
 10710;FRANS;1;20-11-1995 0:00:00;18-12-1995 0:00:00;23-11-1995 0:00:00;1;$ 4,98;Franchi S.p.A.;Via Monte Bianco 34;Torino;;10100;Italia
 10711;SAVEA;5;21-11-1995 0:00:00;2-1-1996 0:00:00;29-11-1995 0:00:00;2;$ 52,41;Save-a-lot Markets;187 Suffolk Ln.;Boise;ID;83720;Estados Unidos
@@ -470,7 +470,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10716;RANCH;4;24-11-1995 0:00:00;22-12-1995 0:00:00;27-11-1995 0:00:00;2;$ 22,57;Rancho grande;Av. del Libertador 900;Buenos Aires;;1010;Argentina
 10717;FRANK;1;24-11-1995 0:00:00;22-12-1995 0:00:00;29-11-1995 0:00:00;2;$ 59,25;Frankenversand;Berliner Platz 43;München;;80805;Alemania
 10718;KOENE;1;27-11-1995 0:00:00;25-12-1995 0:00:00;29-11-1995 0:00:00;3;$ 170,88;Königlich Essen;Maubelstr. 90;Brandenburg;;14776;Alemania
-10719;LETSS;8;27-11-1995 0:00:00;25-12-1995 0:00:00;6-12-1995 0:00:00;2;$ 51,44;Let's Stop N Shop;87 Polk St. Suite 5;San Francisco;CA;94117;Estados Unidos
+10719;LETSS;8;27-11-1995 0:00:00;25-12-1995 0:00:00;6-12-1995 0:00:00;2;$ 51,44;Let's Stop N Shop;87 Polk St.Suite 5;San Francisco;CA;94117;Estados Unidos
 10720;QUEDE;8;28-11-1995 0:00:00;12-12-1995 0:00:00;6-12-1995 0:00:00;2;$ 9,53;Que Delícia;Rua da Panificadora, 12;Río de Janeiro;RJ;02389-673;Brasil
 10721;QUICK;5;29-11-1995 0:00:00;27-12-1995 0:00:00;1-12-1995 0:00:00;3;$ 48,92;QUICK-Stop;Taucherstraße 10;Cunewalde;;01307;Alemania
 10722;SAVEA;8;29-11-1995 0:00:00;10-1-1996 0:00:00;5-12-1995 0:00:00;1;$ 74,58;Save-a-lot Markets;187 Suffolk Ln.;Boise;ID;83720;Estados Unidos
@@ -486,7 +486,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10732;BONAP;3;7-12-1995 0:00:00;4-1-1996 0:00:00;8-12-1995 0:00:00;1;$ 16,97;Bon app';12, rue des Bouchers;Marseille;;13008;Francia
 10733;BERGS;1;8-12-1995 0:00:00;5-1-1996 0:00:00;11-12-1995 0:00:00;3;$ 110,11;Berglunds snabbköp;Berguvsvägen  8;Luleå;;S-958 22;Suecia
 10734;GOURL;2;8-12-1995 0:00:00;5-1-1996 0:00:00;13-12-1995 0:00:00;3;$ 1,63;Gourmet Lanchonetes;Av. Brasil, 442;Campinas;SP;04876-786;Brasil
-10735;LETSS;6;11-12-1995 0:00:00;8-1-1996 0:00:00;22-12-1995 0:00:00;2;$ 45,97;Let's Stop N Shop;87 Polk St. Suite 5;San Francisco;CA;94117;Estados Unidos
+10735;LETSS;6;11-12-1995 0:00:00;8-1-1996 0:00:00;22-12-1995 0:00:00;2;$ 45,97;Let's Stop N Shop;87 Polk St.Suite 5;San Francisco;CA;94117;Estados Unidos
 10736;HUNGO;9;12-12-1995 0:00:00;9-1-1996 0:00:00;22-12-1995 0:00:00;2;$ 44,10;Hungry Owl All-Night Grocers;8 Johnstown Road;Cork;Co. Cork;;Irlanda
 10737;VINET;2;12-12-1995 0:00:00;9-1-1996 0:00:00;19-12-1995 0:00:00;2;$ 7,79;Vins et alcools Chevalier;59 rue de l'Abbaye;Reims;;51100;Francia
 10738;SPECD;2;13-12-1995 0:00:00;10-1-1996 0:00:00;19-12-1995 0:00:00;1;$ 2,91;Spécialités du monde;25, rue Lauriston;Paris;;75016;Francia
@@ -494,16 +494,16 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10740;WHITC;4;14-12-1995 0:00:00;11-1-1996 0:00:00;26-12-1995 0:00:00;2;$ 81,88;White Clover Markets;1029 - 12th Ave. S.;Seattle;WA;98124;Estados Unidos
 10741;BERGS;4;15-12-1995 0:00:00;29-12-1995 0:00:00;19-12-1995 0:00:00;3;$ 10,96;Berglunds snabbköp;Berguvsvägen  8;Luleå;;S-958 22;Suecia
 10742;BOTTM;3;15-12-1995 0:00:00;12-1-1996 0:00:00;19-12-1995 0:00:00;3;$ 243,73;Bottom-Dollar Markets;23 Tsawassen Blvd.;Tsawassen;BC;T2F 8M4;Canadá
-10743;AROUT;1;18-12-1995 0:00:00;15-1-1996 0:00:00;22-12-1995 0:00:00;2;$ 23,72;Around the Horn;Brook Farm Stratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
+10743;AROUT;1;18-12-1995 0:00:00;15-1-1996 0:00:00;22-12-1995 0:00:00;2;$ 23,72;Around the Horn;Brook FarmStratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
 10744;VAFFE;6;18-12-1995 0:00:00;15-1-1996 0:00:00;25-12-1995 0:00:00;1;$ 69,19;Vaffeljernet;Smagsløget 45;Århus;;8200;Dinamarca
 10745;QUICK;9;19-12-1995 0:00:00;16-1-1996 0:00:00;28-12-1995 0:00:00;1;$ 3,52;QUICK-Stop;Taucherstraße 10;Cunewalde;;01307;Alemania
 10746;CHOPS;1;20-12-1995 0:00:00;17-1-1996 0:00:00;22-12-1995 0:00:00;3;$ 31,43;Chop-suey Chinese;Hauptstr. 31;Bern;;3012;Suiza
 10747;PICCO;6;20-12-1995 0:00:00;17-1-1996 0:00:00;27-12-1995 0:00:00;1;$ 117,33;Piccolo und mehr;Geislweg 14;Salzburg;;5020;Austria
 10748;SAVEA;3;21-12-1995 0:00:00;18-1-1996 0:00:00;29-12-1995 0:00:00;1;$ 232,55;Save-a-lot Markets;187 Suffolk Ln.;Boise;ID;83720;Estados Unidos
-10749;ISLAT;4;21-12-1995 0:00:00;18-1-1996 0:00:00;19-1-1996 0:00:00;2;$ 61,53;Island Trading;Garden House Crowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
+10749;ISLAT;4;21-12-1995 0:00:00;18-1-1996 0:00:00;19-1-1996 0:00:00;2;$ 61,53;Island Trading;Garden HouseCrowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
 10750;WARTH;9;22-12-1995 0:00:00;19-1-1996 0:00:00;25-12-1995 0:00:00;1;$ 79,30;Wartian Herkku;Torikatu 38;Oulu;;90110;Finlandia
 10751;RICSU;3;25-12-1995 0:00:00;22-1-1996 0:00:00;3-1-1996 0:00:00;3;$ 130,79;Richter Supermarkt;Starenweg 5;Genève;;1204;Suiza
-10752;NORTS;2;25-12-1995 0:00:00;22-1-1996 0:00:00;29-12-1995 0:00:00;3;$ 1,39;North/South;South House 300 Queensbridge;London;;SW7 1RZ;Reino Unido
+10752;NORTS;2;25-12-1995 0:00:00;22-1-1996 0:00:00;29-12-1995 0:00:00;3;$ 1,39;North/South;South House300 Queensbridge;London;;SW7 1RZ;Reino Unido
 10753;FRANS;3;26-12-1995 0:00:00;23-1-1996 0:00:00;28-12-1995 0:00:00;1;$ 7,70;Franchi S.p.A.;Via Monte Bianco 34;Torino;;10100;Italia
 10754;MAGAA;6;26-12-1995 0:00:00;23-1-1996 0:00:00;28-12-1995 0:00:00;3;$ 2,38;Magazzini Alimentari Riuniti;Via Ludovico il Moro 22;Bérgamo;;24100;Italia
 10755;BONAP;4;27-12-1995 0:00:00;24-1-1996 0:00:00;29-12-1995 0:00:00;2;$ 16,71;Bon app';12, rue des Bouchers;Marseille;;13008;Francia
@@ -519,7 +519,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10765;QUICK;3;4-1-1996 0:00:00;1-2-1996 0:00:00;9-1-1996 0:00:00;3;$ 42,74;QUICK-Stop;Taucherstraße 10;Cunewalde;;01307;Alemania
 10766;OTTIK;4;5-1-1996 0:00:00;2-2-1996 0:00:00;9-1-1996 0:00:00;1;$ 157,55;Ottilies Käseladen;Mehrheimerstr. 369;Köln;;50739;Alemania
 10767;SUPRD;4;5-1-1996 0:00:00;2-2-1996 0:00:00;15-1-1996 0:00:00;3;$ 1,59;Suprêmes délices;Boulevard Tirou, 255;Charleroi;;B-6000;Bélgica
-10768;AROUT;3;8-1-1996 0:00:00;5-2-1996 0:00:00;15-1-1996 0:00:00;2;$ 146,32;Around the Horn;Brook Farm Stratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
+10768;AROUT;3;8-1-1996 0:00:00;5-2-1996 0:00:00;15-1-1996 0:00:00;2;$ 146,32;Around the Horn;Brook FarmStratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
 10769;VAFFE;3;8-1-1996 0:00:00;5-2-1996 0:00:00;12-1-1996 0:00:00;1;$ 65,06;Vaffeljernet;Smagsløget 45;Århus;;8200;Dinamarca
 10770;HANAR;8;9-1-1996 0:00:00;6-2-1996 0:00:00;17-1-1996 0:00:00;3;$ 5,32;Hanari Carnes;Rua do Paço, 67;Río de Janeiro;RJ;05454-876;Brasil
 10771;ERNSH;9;10-1-1996 0:00:00;7-2-1996 0:00:00;2-2-1996 0:00:00;2;$ 11,19;Ernst Handel;Kirchgasse 6;Graz;;8010;Austria
@@ -544,19 +544,19 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10790;GOURL;6;22-1-1996 0:00:00;19-2-1996 0:00:00;26-1-1996 0:00:00;1;$ 28,23;Gourmet Lanchonetes;Av. Brasil, 442;Campinas;SP;04876-786;Brasil
 10791;FRANK;6;23-1-1996 0:00:00;20-2-1996 0:00:00;1-2-1996 0:00:00;2;$ 16,85;Frankenversand;Berliner Platz 43;München;;80805;Alemania
 10792;WOLZA;1;23-1-1996 0:00:00;20-2-1996 0:00:00;31-1-1996 0:00:00;3;$ 23,79;Wolski Zajazd;ul. Filtrowa 68;Warszawa;;01-012;Polonia
-10793;AROUT;3;24-1-1996 0:00:00;21-2-1996 0:00:00;8-2-1996 0:00:00;3;$ 4,52;Around the Horn;Brook Farm Stratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
+10793;AROUT;3;24-1-1996 0:00:00;21-2-1996 0:00:00;8-2-1996 0:00:00;3;$ 4,52;Around the Horn;Brook FarmStratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
 10794;QUEDE;6;24-1-1996 0:00:00;21-2-1996 0:00:00;2-2-1996 0:00:00;1;$ 21,49;Que Delícia;Rua da Panificadora, 12;Río de Janeiro;RJ;02389-673;Brasil
 10795;ERNSH;8;24-1-1996 0:00:00;21-2-1996 0:00:00;20-2-1996 0:00:00;2;$ 126,66;Ernst Handel;Kirchgasse 6;Graz;;8010;Austria
 10796;HILAA;3;25-1-1996 0:00:00;22-2-1996 0:00:00;14-2-1996 0:00:00;1;$ 26,52;HILARIÓN-Abastos;Carrera 22 con Ave. Carlos Soublette #8-35;San Cristóbal;Táchira;5022;Venezuela
 10797;DRACD;7;25-1-1996 0:00:00;22-2-1996 0:00:00;5-2-1996 0:00:00;2;$ 33,35;Drachenblut Delikatessen;Walserweg 21;Aachen;;52066;Alemania
-10798;ISLAT;2;26-1-1996 0:00:00;23-2-1996 0:00:00;5-2-1996 0:00:00;1;$ 2,33;Island Trading;Garden House Crowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
+10798;ISLAT;2;26-1-1996 0:00:00;23-2-1996 0:00:00;5-2-1996 0:00:00;1;$ 2,33;Island Trading;Garden HouseCrowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
 10799;KOENE;9;26-1-1996 0:00:00;8-3-1996 0:00:00;5-2-1996 0:00:00;3;$ 30,76;Königlich Essen;Maubelstr. 90;Brandenburg;;14776;Alemania
 10800;SEVES;1;26-1-1996 0:00:00;23-2-1996 0:00:00;5-2-1996 0:00:00;3;$ 137,44;Seven Seas Imports;90 Wadhurst Rd.;London;;OX15 4NB;Reino Unido
 10801;BOLID;4;29-1-1996 0:00:00;26-2-1996 0:00:00;31-1-1996 0:00:00;2;$ 97,09;Bólido Comidas preparadas;C/ Araquil, 67;Madrid;;28023;España
 10802;SIMOB;4;29-1-1996 0:00:00;26-2-1996 0:00:00;2-2-1996 0:00:00;2;$ 257,26;Simons bistro;Vinbæltet 34;København;;1734;Dinamarca
 10803;WELLI;4;30-1-1996 0:00:00;27-2-1996 0:00:00;6-2-1996 0:00:00;1;$ 55,23;Wellington Importadora;Rua do Mercado, 12;Resende;SP;08737-363;Brasil
 10804;SEVES;6;30-1-1996 0:00:00;27-2-1996 0:00:00;7-2-1996 0:00:00;2;$ 27,33;Seven Seas Imports;90 Wadhurst Rd.;London;;OX15 4NB;Reino Unido
-10805;THEBI;2;30-1-1996 0:00:00;27-2-1996 0:00:00;9-2-1996 0:00:00;3;$ 237,34;The Big Cheese;89 Jefferson Way Suite 2;Portland;OR;97201;Estados Unidos
+10805;THEBI;2;30-1-1996 0:00:00;27-2-1996 0:00:00;9-2-1996 0:00:00;3;$ 237,34;The Big Cheese;89 Jefferson WaySuite 2;Portland;OR;97201;Estados Unidos
 10806;VICTE;3;31-1-1996 0:00:00;28-2-1996 0:00:00;5-2-1996 0:00:00;2;$ 22,11;Victuailles en stock;2, rue du Commerce;Lyon;;69004;Francia
 10807;FRANS;4;31-1-1996 0:00:00;28-2-1996 0:00:00;1-3-1996 0:00:00;1;$ 1,36;Franchi S.p.A.;Via Monte Bianco 34;Torino;;10100;Italia
 10808;OLDWO;2;1-2-1996 0:00:00;29-2-1996 0:00:00;9-2-1996 0:00:00;3;$ 45,53;Old World Delicatessen;2743 Bering St.;Anchorage;AK;99508;Estados Unidos
@@ -580,7 +580,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10826;BLONP;6;12-2-1996 0:00:00;11-3-1996 0:00:00;8-3-1996 0:00:00;1;$ 7,09;Blondel père et fils;24, place Kléber;Strasbourg;;67000;Francia
 10827;BONAP;1;12-2-1996 0:00:00;26-2-1996 0:00:00;8-3-1996 0:00:00;2;$ 63,54;Bon app';12, rue des Bouchers;Marseille;;13008;Francia
 10828;RANCH;9;13-2-1996 0:00:00;27-2-1996 0:00:00;6-3-1996 0:00:00;1;$ 90,85;Rancho grande;Av. del Libertador 900;Buenos Aires;;1010;Argentina
-10829;ISLAT;9;13-2-1996 0:00:00;12-3-1996 0:00:00;23-2-1996 0:00:00;1;$ 154,72;Island Trading;Garden House Crowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
+10829;ISLAT;9;13-2-1996 0:00:00;12-3-1996 0:00:00;23-2-1996 0:00:00;1;$ 154,72;Island Trading;Garden HouseCrowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
 10830;TRADH;4;13-2-1996 0:00:00;26-3-1996 0:00:00;21-2-1996 0:00:00;2;$ 81,83;Tradição Hipermercados;Av. Inês de Castro, 414;São Paulo;SP;05634-030;Brasil
 10831;SANTG;3;14-2-1996 0:00:00;13-3-1996 0:00:00;23-2-1996 0:00:00;2;$ 72,19;Santé Gourmet;Erling Skakkes gate 78;Stavern;;4110;Noruega
 10832;LAMAI;2;14-2-1996 0:00:00;13-3-1996 0:00:00;19-2-1996 0:00:00;2;$ 43,26;La maison d'Asie;1 rue Alsace-Lorraine;Toulouse;;31000;Francia
@@ -599,7 +599,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10845;QUICK;8;21-2-1996 0:00:00;6-3-1996 0:00:00;1-3-1996 0:00:00;1;$ 212,98;QUICK-Stop;Taucherstraße 10;Cunewalde;;01307;Alemania
 10846;SUPRD;2;22-2-1996 0:00:00;4-4-1996 0:00:00;23-2-1996 0:00:00;3;$ 56,46;Suprêmes délices;Boulevard Tirou, 255;Charleroi;;B-6000;Bélgica
 10847;SAVEA;4;22-2-1996 0:00:00;7-3-1996 0:00:00;12-3-1996 0:00:00;3;$ 487,57;Save-a-lot Markets;187 Suffolk Ln.;Boise;ID;83720;Estados Unidos
-10848;CONSH;7;23-2-1996 0:00:00;22-3-1996 0:00:00;29-2-1996 0:00:00;2;$ 38,24;Consolidated Holdings;Berkeley Gardens 12  Brewery;London;;WX1 6LT;Reino Unido
+10848;CONSH;7;23-2-1996 0:00:00;22-3-1996 0:00:00;29-2-1996 0:00:00;2;$ 38,24;Consolidated Holdings;Berkeley Gardens12  Brewery;London;;WX1 6LT;Reino Unido
 10849;KOENE;9;23-2-1996 0:00:00;22-3-1996 0:00:00;1-3-1996 0:00:00;2;$ 0,56;Königlich Essen;Maubelstr. 90;Brandenburg;;14776;Alemania
 10850;VICTE;1;23-2-1996 0:00:00;5-4-1996 0:00:00;1-3-1996 0:00:00;1;$ 49,19;Victuailles en stock;2, rue du Commerce;Lyon;;69004;Francia
 10851;RICAR;5;26-2-1996 0:00:00;25-3-1996 0:00:00;4-3-1996 0:00:00;1;$ 160,55;Ricardo Adocicados;Av. Copacabana, 267;Río de Janeiro;RJ;02389-890;Brasil
@@ -615,13 +615,13 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10861;WHITC;4;1-3-1996 0:00:00;29-3-1996 0:00:00;19-3-1996 0:00:00;2;$ 14,93;White Clover Markets;1029 - 12th Ave. S.;Seattle;WA;98124;Estados Unidos
 10862;LEHMS;8;1-3-1996 0:00:00;12-4-1996 0:00:00;4-3-1996 0:00:00;2;$ 53,23;Lehmanns Marktstand;Magazinweg 7;Frankfurt a.M.;;60528;Alemania
 10863;HILAA;4;4-3-1996 0:00:00;1-4-1996 0:00:00;19-3-1996 0:00:00;2;$ 30,26;HILARIÓN-Abastos;Carrera 22 con Ave. Carlos Soublette #8-35;San Cristóbal;Táchira;5022;Venezuela
-10864;AROUT;4;4-3-1996 0:00:00;1-4-1996 0:00:00;11-3-1996 0:00:00;2;$ 3,04;Around the Horn;Brook Farm Stratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
+10864;AROUT;4;4-3-1996 0:00:00;1-4-1996 0:00:00;11-3-1996 0:00:00;2;$ 3,04;Around the Horn;Brook FarmStratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
 10865;QUICK;2;4-3-1996 0:00:00;18-3-1996 0:00:00;14-3-1996 0:00:00;1;$ 348,14;QUICK-Stop;Taucherstraße 10;Cunewalde;;01307;Alemania
 10866;BERGS;5;5-3-1996 0:00:00;2-4-1996 0:00:00;14-3-1996 0:00:00;1;$ 109,11;Berglunds snabbköp;Berguvsvägen  8;Luleå;;S-958 22;Suecia
 10867;LONEP;6;5-3-1996 0:00:00;16-4-1996 0:00:00;13-3-1996 0:00:00;1;$ 1,93;Lonesome Pine Restaurant;89 Chiaroscuro Rd.;Portland;OR;97219;Estados Unidos
 10868;QUEEN;7;6-3-1996 0:00:00;3-4-1996 0:00:00;25-3-1996 0:00:00;2;$ 191,27;Queen Cozinha;Alameda dos Canàrios, 891;São Paulo;SP;05487-020;Brasil
 10869;SEVES;5;6-3-1996 0:00:00;3-4-1996 0:00:00;11-3-1996 0:00:00;1;$ 143,28;Seven Seas Imports;90 Wadhurst Rd.;London;;OX15 4NB;Reino Unido
-10870;WHITC;5;6-3-1996 0:00:00;3-4-1996 0:00:00;15-3-1996 0:00:00;3;$ 12,04;White Clover Markets;305 - 14th Ave. S. Suite 3B;Seattle;WA;98128;Estados Unidos
+10870;WHITC;5;6-3-1996 0:00:00;3-4-1996 0:00:00;15-3-1996 0:00:00;3;$ 12,04;White Clover Markets;305 - 14th Ave. S.Suite 3B;Seattle;WA;98128;Estados Unidos
 10871;BONAP;9;7-3-1996 0:00:00;4-4-1996 0:00:00;12-3-1996 0:00:00;2;$ 112,27;Bon app';12, rue des Bouchers;Marseille;;13008;Francia
 10872;GODOS;5;7-3-1996 0:00:00;4-4-1996 0:00:00;11-3-1996 0:00:00;2;$ 175,32;Godos Cocina Típica;C/ Romero, 33;Sevilla;;41101;España
 10873;WILMK;4;8-3-1996 0:00:00;5-4-1996 0:00:00;11-3-1996 0:00:00;1;$ 0,82;Wilman Kala;Keskuskatu 45;Helsinki;;21240;Finlandia
@@ -635,7 +635,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10881;CACTU;4;13-3-1996 0:00:00;10-4-1996 0:00:00;20-3-1996 0:00:00;1;$ 2,84;Cactus Comidas para llevar;Cerrito 333;Buenos Aires;;1010;Argentina
 10882;SAVEA;4;13-3-1996 0:00:00;10-4-1996 0:00:00;22-3-1996 0:00:00;3;$ 23,10;Save-a-lot Markets;187 Suffolk Ln.;Boise;ID;83720;Estados Unidos
 10883;LONEP;8;14-3-1996 0:00:00;11-4-1996 0:00:00;22-3-1996 0:00:00;3;$ 0,53;Lonesome Pine Restaurant;89 Chiaroscuro Rd.;Portland;OR;97219;Estados Unidos
-10884;LETSS;4;14-3-1996 0:00:00;11-4-1996 0:00:00;15-3-1996 0:00:00;2;$ 90,97;Let's Stop N Shop;87 Polk St. Suite 5;San Francisco;CA;94117;Estados Unidos
+10884;LETSS;4;14-3-1996 0:00:00;11-4-1996 0:00:00;15-3-1996 0:00:00;2;$ 90,97;Let's Stop N Shop;87 Polk St.Suite 5;San Francisco;CA;94117;Estados Unidos
 10885;SUPRD;6;14-3-1996 0:00:00;11-4-1996 0:00:00;20-3-1996 0:00:00;3;$ 5,64;Suprêmes délices;Boulevard Tirou, 255;Charleroi;;B-6000;Bélgica
 10886;HANAR;1;15-3-1996 0:00:00;12-4-1996 0:00:00;1-4-1996 0:00:00;1;$ 4,99;Hanari Carnes;Rua do Paço, 67;Río de Janeiro;RJ;05454-876;Brasil
 10887;GALED;8;15-3-1996 0:00:00;12-4-1996 0:00:00;18-3-1996 0:00:00;3;$ 1,25;Galería del gastronómo;Rambla de Cataluña, 23;Barcelona;;8022;España
@@ -649,7 +649,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10895;ERNSH;3;20-3-1996 0:00:00;17-4-1996 0:00:00;25-3-1996 0:00:00;1;$ 162,75;Ernst Handel;Kirchgasse 6;Graz;;8010;Austria
 10896;MAISD;7;21-3-1996 0:00:00;18-4-1996 0:00:00;29-3-1996 0:00:00;3;$ 32,45;Maison Dewey;Rue Joseph-Bens 532;Bruxelles;;B-1180;Bélgica
 10897;HUNGO;3;21-3-1996 0:00:00;18-4-1996 0:00:00;27-3-1996 0:00:00;2;$ 603,54;Hungry Owl All-Night Grocers;8 Johnstown Road;Cork;Co. Cork;;Irlanda
-10898;OCEAN;4;22-3-1996 0:00:00;19-4-1996 0:00:00;5-4-1996 0:00:00;2;$ 1,27;Océano Atlántico Ltda.;Ing. Gustavo Moncada 8585 Piso 20-A;Buenos Aires;;1010;Argentina
+10898;OCEAN;4;22-3-1996 0:00:00;19-4-1996 0:00:00;5-4-1996 0:00:00;2;$ 1,27;Océano Atlántico Ltda.;Ing. Gustavo Moncada 8585Piso 20-A;Buenos Aires;;1010;Argentina
 10899;LILAS;5;22-3-1996 0:00:00;19-4-1996 0:00:00;28-3-1996 0:00:00;3;$ 1,21;LILA-Supermercado;Carrera 52 con Ave. Bolívar #65-98 Llano Largo;Barquisimeto;Lara;3508;Venezuela
 10900;WELLI;1;22-3-1996 0:00:00;19-4-1996 0:00:00;3-4-1996 0:00:00;2;$ 1,66;Wellington Importadora;Rua do Mercado, 12;Resende;SP;08737-363;Brasil
 10901;HILAA;4;25-3-1996 0:00:00;22-4-1996 0:00:00;28-3-1996 0:00:00;1;$ 62,09;HILARIÓN-Abastos;Carrera 22 con Ave. Carlos Soublette #8-35;San Cristóbal;Táchira;5022;Venezuela
@@ -671,7 +671,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10917;ROMEY;4;1-4-1996 0:00:00;29-4-1996 0:00:00;10-4-1996 0:00:00;2;$ 8,29;Romero y tomillo;Gran Vía, 1;Madrid;;28001;España
 10918;BOTTM;3;1-4-1996 0:00:00;29-4-1996 0:00:00;10-4-1996 0:00:00;3;$ 48,83;Bottom-Dollar Markets;23 Tsawassen Blvd.;Tsawassen;BC;T2F 8M4;Canadá
 10919;LINOD;2;1-4-1996 0:00:00;29-4-1996 0:00:00;3-4-1996 0:00:00;2;$ 19,80;LINO-Delicateses;Ave. 5 de Mayo Porlamar;I. de Margarita;Nueva Esparta;4980;Venezuela
-10920;AROUT;4;2-4-1996 0:00:00;30-4-1996 0:00:00;8-4-1996 0:00:00;2;$ 29,61;Around the Horn;Brook Farm Stratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
+10920;AROUT;4;2-4-1996 0:00:00;30-4-1996 0:00:00;8-4-1996 0:00:00;2;$ 29,61;Around the Horn;Brook FarmStratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
 10921;VAFFE;1;2-4-1996 0:00:00;14-5-1996 0:00:00;8-4-1996 0:00:00;1;$ 176,48;Vaffeljernet;Smagsløget 45;Århus;;8200;Dinamarca
 10922;HANAR;5;2-4-1996 0:00:00;30-4-1996 0:00:00;4-4-1996 0:00:00;3;$ 62,74;Hanari Carnes;Rua do Paço, 67;Río de Janeiro;RJ;05454-876;Brasil
 10923;LAMAI;7;2-4-1996 0:00:00;14-5-1996 0:00:00;12-4-1996 0:00:00;3;$ 68,26;La maison d'Asie;1 rue Alsace-Lorraine;Toulouse;;31000;Francia
@@ -684,7 +684,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10930;SUPRD;4;5-4-1996 0:00:00;17-5-1996 0:00:00;17-4-1996 0:00:00;3;$ 15,55;Suprêmes délices;Boulevard Tirou, 255;Charleroi;;B-6000;Bélgica
 10931;RICSU;4;5-4-1996 0:00:00;19-4-1996 0:00:00;18-4-1996 0:00:00;2;$ 13,60;Richter Supermarkt;Starenweg 5;Genève;;1204;Suiza
 10932;BONAP;8;5-4-1996 0:00:00;3-5-1996 0:00:00;23-4-1996 0:00:00;1;$ 134,64;Bon app';12, rue des Bouchers;Marseille;;13008;Francia
-10933;ISLAT;6;5-4-1996 0:00:00;3-5-1996 0:00:00;15-4-1996 0:00:00;3;$ 54,15;Island Trading;Garden House Crowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
+10933;ISLAT;6;5-4-1996 0:00:00;3-5-1996 0:00:00;15-4-1996 0:00:00;3;$ 54,15;Island Trading;Garden HouseCrowther Way;Cowes;Isle of Wight;PO31 7PJ;Reino Unido
 10934;LEHMS;3;8-4-1996 0:00:00;6-5-1996 0:00:00;11-4-1996 0:00:00;3;$ 32,01;Lehmanns Marktstand;Magazinweg 7;Frankfurt a.M.;;60528;Alemania
 10935;WELLI;4;8-4-1996 0:00:00;6-5-1996 0:00:00;17-4-1996 0:00:00;3;$ 47,59;Wellington Importadora;Rua do Mercado, 12;Resende;SP;08737-363;Brasil
 10936;GREAL;3;8-4-1996 0:00:00;6-5-1996 0:00:00;17-4-1996 0:00:00;2;$ 33,68;Great Lakes Food Market;2732 Baker Blvd.;Eugene;OR;97403;Estados Unidos
@@ -704,12 +704,12 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10950;MAGAA;1;15-4-1996 0:00:00;13-5-1996 0:00:00;22-4-1996 0:00:00;2;$ 2,50;Magazzini Alimentari Riuniti;Via Ludovico il Moro 22;Bérgamo;;24100;Italia
 10951;RICSU;9;15-4-1996 0:00:00;27-5-1996 0:00:00;7-5-1996 0:00:00;2;$ 30,85;Richter Supermarkt;Starenweg 5;Genève;;1204;Suiza
 10952;ALFKI;1;15-4-1996 0:00:00;27-5-1996 0:00:00;23-4-1996 0:00:00;1;$ 40,42;Alfred's Futterkiste;Obere Str. 57;Berlín;;12209;Alemania
-10953;AROUT;9;15-4-1996 0:00:00;29-4-1996 0:00:00;24-4-1996 0:00:00;2;$ 23,72;Around the Horn;Brook Farm Stratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
+10953;AROUT;9;15-4-1996 0:00:00;29-4-1996 0:00:00;24-4-1996 0:00:00;2;$ 23,72;Around the Horn;Brook FarmStratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
 10954;LINOD;5;16-4-1996 0:00:00;28-5-1996 0:00:00;19-4-1996 0:00:00;1;$ 27,91;LINO-Delicateses;Ave. 5 de Mayo Porlamar;I. de Margarita;Nueva Esparta;4980;Venezuela
 10955;FOLKO;8;16-4-1996 0:00:00;14-5-1996 0:00:00;19-4-1996 0:00:00;2;$ 3,26;Folk och fä HB;Åkergatan 24;Bräcke;;S-844 67;Suecia
 10956;BLAUS;6;16-4-1996 0:00:00;28-5-1996 0:00:00;19-4-1996 0:00:00;2;$ 44,65;Blauer See Delikatessen;Forsterstr. 57;Mannheim;;68306;Alemania
 10957;HILAA;8;17-4-1996 0:00:00;15-5-1996 0:00:00;26-4-1996 0:00:00;3;$ 105,36;HILARIÓN-Abastos;Carrera 22 con Ave. Carlos Soublette #8-35;San Cristóbal;Táchira;5022;Venezuela
-10958;OCEAN;7;17-4-1996 0:00:00;15-5-1996 0:00:00;26-4-1996 0:00:00;2;$ 49,56;Océano Atlántico Ltda.;Ing. Gustavo Moncada 8585 Piso 20-A;Buenos Aires;;1010;Argentina
+10958;OCEAN;7;17-4-1996 0:00:00;15-5-1996 0:00:00;26-4-1996 0:00:00;2;$ 49,56;Océano Atlántico Ltda.;Ing. Gustavo Moncada 8585Piso 20-A;Buenos Aires;;1010;Argentina
 10959;GOURL;6;17-4-1996 0:00:00;29-5-1996 0:00:00;22-4-1996 0:00:00;2;$ 4,98;Gourmet Lanchonetes;Av. Brasil, 442;Campinas;SP;04876-786;Brasil
 10960;HILAA;3;18-4-1996 0:00:00;2-5-1996 0:00:00;8-5-1996 0:00:00;1;$ 2,08;HILARIÓN-Abastos;Carrera 22 con Ave. Carlos Soublette #8-35;San Cristóbal;Táchira;5022;Venezuela
 10961;QUEEN;8;18-4-1996 0:00:00;16-5-1996 0:00:00;29-4-1996 0:00:00;1;$ 104,47;Queen Cozinha;Alameda dos Canàrios, 891;São Paulo;SP;05487-020;Brasil
@@ -737,13 +737,13 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 10983;SAVEA;2;26-4-1996 0:00:00;24-5-1996 0:00:00;6-5-1996 0:00:00;2;$ 657,54;Save-a-lot Markets;187 Suffolk Ln.;Boise;ID;83720;Estados Unidos
 10984;SAVEA;1;29-4-1996 0:00:00;27-5-1996 0:00:00;3-5-1996 0:00:00;3;$ 211,22;Save-a-lot Markets;187 Suffolk Ln.;Boise;ID;83720;Estados Unidos
 10985;HUNGO;2;29-4-1996 0:00:00;27-5-1996 0:00:00;2-5-1996 0:00:00;1;$ 91,51;Hungry Owl All-Night Grocers;8 Johnstown Road;Cork;Co. Cork;;Irlanda
-10986;OCEAN;8;29-4-1996 0:00:00;27-5-1996 0:00:00;21-5-1996 0:00:00;2;$ 217,86;Océano Atlántico Ltda.;Ing. Gustavo Moncada 8585 Piso 20-A;Buenos Aires;;1010;Argentina
+10986;OCEAN;8;29-4-1996 0:00:00;27-5-1996 0:00:00;21-5-1996 0:00:00;2;$ 217,86;Océano Atlántico Ltda.;Ing. Gustavo Moncada 8585Piso 20-A;Buenos Aires;;1010;Argentina
 10987;EASTC;8;30-4-1996 0:00:00;28-5-1996 0:00:00;6-5-1996 0:00:00;1;$ 185,48;Eastern Connection;35 King George;London;;WX3 6FW;Reino Unido
 10988;RATTC;3;30-4-1996 0:00:00;28-5-1996 0:00:00;10-5-1996 0:00:00;2;$ 61,14;Rattlesnake Canyon Grocery;2817 Milton Dr.;Albuquerque;NM;87110;Estados Unidos
 10989;QUEDE;2;30-4-1996 0:00:00;28-5-1996 0:00:00;2-5-1996 0:00:00;1;$ 34,76;Que Delícia;Rua da Panificadora, 12;Río de Janeiro;RJ;02389-673;Brasil
 10990;ERNSH;2;1-5-1996 0:00:00;12-6-1996 0:00:00;7-5-1996 0:00:00;3;$ 117,61;Ernst Handel;Kirchgasse 6;Graz;;8010;Austria
 10991;QUICK;1;1-5-1996 0:00:00;29-5-1996 0:00:00;7-5-1996 0:00:00;1;$ 38,51;QUICK-Stop;Taucherstraße 10;Cunewalde;;01307;Alemania
-10992;THEBI;1;1-5-1996 0:00:00;29-5-1996 0:00:00;3-5-1996 0:00:00;3;$ 4,27;The Big Cheese;89 Jefferson Way Suite 2;Portland;OR;97201;Estados Unidos
+10992;THEBI;1;1-5-1996 0:00:00;29-5-1996 0:00:00;3-5-1996 0:00:00;3;$ 4,27;The Big Cheese;89 Jefferson WaySuite 2;Portland;OR;97201;Estados Unidos
 10993;FOLKO;7;1-5-1996 0:00:00;29-5-1996 0:00:00;10-5-1996 0:00:00;3;$ 8,81;Folk och fä HB;Åkergatan 24;Bräcke;;S-844 67;Suecia
 10994;VAFFE;2;2-5-1996 0:00:00;16-5-1996 0:00:00;9-5-1996 0:00:00;3;$ 65,53;Vaffeljernet;Smagsløget 45;Århus;;8200;Dinamarca
 10995;PERIC;1;2-5-1996 0:00:00;30-5-1996 0:00:00;6-5-1996 0:00:00;3;$ 46,00;Pericles Comidas clásicas;Calle Dr. Jorge Cash 321;México D.F.;;05033;México
@@ -767,7 +767,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 11013;ROMEY;2;9-5-1996 0:00:00;6-6-1996 0:00:00;10-5-1996 0:00:00;1;$ 32,99;Romero y tomillo;Gran Vía, 1;Madrid;;28001;España
 11014;LINOD;2;10-5-1996 0:00:00;7-6-1996 0:00:00;15-5-1996 0:00:00;3;$ 23,60;LINO-Delicateses;Ave. 5 de Mayo Porlamar;I. de Margarita;Nueva Esparta;4980;Venezuela
 11015;SANTG;2;10-5-1996 0:00:00;24-5-1996 0:00:00;20-5-1996 0:00:00;2;$ 4,62;Santé Gourmet;Erling Skakkes gate 78;Stavern;;4110;Noruega
-11016;AROUT;9;10-5-1996 0:00:00;7-6-1996 0:00:00;13-5-1996 0:00:00;2;$ 33,80;Around the Horn;Brook Farm Stratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
+11016;AROUT;9;10-5-1996 0:00:00;7-6-1996 0:00:00;13-5-1996 0:00:00;2;$ 33,80;Around the Horn;Brook FarmStratford St. Mary;Colchester;Essex;CO7 6JX;Reino Unido
 11017;ERNSH;9;13-5-1996 0:00:00;10-6-1996 0:00:00;20-5-1996 0:00:00;2;$ 754,26;Ernst Handel;Kirchgasse 6;Graz;;8010;Austria
 11018;LONEP;4;13-5-1996 0:00:00;10-6-1996 0:00:00;16-5-1996 0:00:00;2;$ 11,65;Lonesome Pine Restaurant;89 Chiaroscuro Rd.;Portland;OR;97219;Estados Unidos
 11019;RANCH;6;13-5-1996 0:00:00;10-6-1996 0:00:00;;3;$ 3,17;Rancho grande;Av. del Libertador 900;Buenos Aires;;1010;Argentina
@@ -808,7 +808,7 @@ IdPedido;IdCliente;IdEmpleado;FechaPedido;FechaEntrega;FechaEnvío;FormaEnvío;Car
 11054;CACTU;8;28-5-1996 0:00:00;25-6-1996 0:00:00;;1;$ 0,33;Cactus Comidas para llevar;Cerrito 333;Buenos Aires;;1010;Argentina
 11055;HILAA;7;28-5-1996 0:00:00;25-6-1996 0:00:00;4-6-1996 0:00:00;2;$ 120,92;HILARIÓN-Abastos;Carrera 22 con Ave. Carlos Soublette #8-35;San Cristóbal;Táchira;5022;Venezuela
 11056;EASTC;8;28-5-1996 0:00:00;11-6-1996 0:00:00;31-5-1996 0:00:00;2;$ 278,96;Eastern Connection;35 King George;London;;WX3 6FW;Reino Unido
-11057;NORTS;3;29-5-1996 0:00:00;26-6-1996 0:00:00;31-5-1996 0:00:00;3;$ 4,13;North/South;South House 300 Queensbridge;London;;SW7 1RZ;Reino Unido
+11057;NORTS;3;29-5-1996 0:00:00;26-6-1996 0:00:00;31-5-1996 0:00:00;3;$ 4,13;North/South;South House300 Queensbridge;London;;SW7 1RZ;Reino Unido
 11058;BLAUS;9;29-5-1996 0:00:00;26-6-1996 0:00:00;;3;$ 31,14;Blauer See Delikatessen;Forsterstr. 57;Mannheim;;68306;Alemania
 11059;RICAR;2;29-5-1996 0:00:00;10-7-1996 0:00:00;;2;$ 85,80;Ricardo Adocicados;Av. Copacabana, 267;Río de Janeiro;RJ;02389-890;Brasil
 11060;FRANS;2;30-5-1996 0:00:00;27-6-1996 0:00:00;3-6-1996 0:00:00;2;$ 10,98;Franchi S.p.A.;Via Monte Bianco 34;Torino;;10100;Italia

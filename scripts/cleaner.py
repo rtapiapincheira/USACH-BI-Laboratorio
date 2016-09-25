@@ -10,29 +10,33 @@ def clean_file(inputfile, outputfile):
         print 'the file %s doesnt exist' % inputfile
         return
 
-    memfile = open(inputfile).read()
+    lines = [l.strip() for l in open(inputfile).readlines()]
 
-    while ';\n' in memfile:
-        memfile = memfile.replace(';\n', ';""\n')
-    
+    nheader = lines[0].count(';')
 
-    L = [l.replace('\n',' ').strip() for l in memfile.split('"\n')]
-    
-    def clean_delimiters(s):
-        return s.strip(' \t\n\r\b"')
+    result = []
 
-    header = [clean_delimiters(e) for e in L[0].split(';')]
+    buffer = []
+    nbuffer = 0
+    for l in lines:
+        nl = l.count(';')
+        if nl == nheader:
+            result.append(l)
+        else:
+            buffer.append(l)
+            nbuffer += nl
+        if nbuffer == nheader:
+            result.append(''.join(buffer))
+            buffer = []
+            nbuffer = 0
+    if len(buffer) > 0:
+        result.append(''.join(buffer))
 
-    del(L[0])
-    
-    LS = [[clean_delimiters(e) for e in k.split(';')] for k in L]
+    def clean_string(s):
+        parts = s.split(';')
+        return ';'.join([r.strip('\t\n\r\b\v" ') for r in parts])
 
-    h = open(outputfile, 'w')
-    h.write(';'.join(header))
-    for l in LS:
-    	h.write('\n')
-    	h.write(';'.join(l))
-    h.close()
+    open(outputfile, 'w').write('\n'.join([ clean_string(s) for s in result]))
 
 
 def print_help():
