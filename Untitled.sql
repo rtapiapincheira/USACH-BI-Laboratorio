@@ -1,3 +1,7 @@
+/**
+if object_id('dbo.Persons') is not null drop table dbo.Persons;
+*/
+
 CREATE TABLE `categorias` (
   `idCategoria` INT NOT NULL,
   `nombreCategoria` VARCHAR(100) NULL,
@@ -61,14 +65,10 @@ CREATE TABLE `pedidos` (
   INDEX `fk_pedidos_empleados1_idx` (`idEmpleado` ASC),
   CONSTRAINT `fk_pedidos_clientes1`
     FOREIGN KEY (`idCliente`)
-    REFERENCES `clientes` (`idCliente`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
+    REFERENCES `clientes` (`idCliente`),
   CONSTRAINT `fk_pedidos_empleados1`
     FOREIGN KEY (`idEmpleado`)
-    REFERENCES `empleados` (`idEmpleado`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    REFERENCES `empleados` (`idEmpleado`))
 ;
 
 
@@ -105,14 +105,10 @@ CREATE TABLE `productos` (
   INDEX `fk_productos_proveedores1_idx` (`idProveedor` ASC),
   CONSTRAINT `fk_productos_categorias`
     FOREIGN KEY (`idCategoria`)
-    REFERENCES `categorias` (`idCategoria`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
+    REFERENCES `categorias` (`idCategoria`),
   CONSTRAINT `fk_productos_proveedores1`
     FOREIGN KEY (`idProveedor`)
-    REFERENCES `proveedores` (`idProveedor`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    REFERENCES `proveedores` (`idProveedor`))
 ;
 
 
@@ -131,7 +127,5 @@ CREATE TABLE `detallesPedidos` (
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_detallesPedidos_productos1`
     FOREIGN KEY (`idProducto`)
-    REFERENCES `productos` (`idProducto`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    REFERENCES `productos` (`idProducto`))
 ;
