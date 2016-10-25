@@ -1,0 +1,44 @@
+{
+    'categories': {
+        'IdCategoría':'idCategoria',
+        'NombreCategoría':'nombreCategoria',
+        'Descripción':'descripcion'
+    },
+    'clients': {
+        'IdCliente':'idCliente',
+        'NombreCompañía':'nombreCompania',
+        'NombreContacto':'nombreContacto',
+        'CargoContacto':'cargoContacto',
+        'Dirección':'direccion',
+        'Ciudad':'ciudad',
+        'Región':'region',
+        'CódPostal':'codPostal',
+        'País':'pais',
+        'Teléfono':'telefono',
+        'Fax':'fax'
+    },
+    'employees':{
+        'IdEmpleado':'idEmpleado',
+        'Apellidos':'apellidos',
+        'Nombre':'nombre',
+        'Cargo':'cargo',
+        'Tratamiento':'tratamiento',
+        'FechaNacimiento':'fechaNacimiento',
+        'FechaContratación':'fechaContratacion',
+        'Dirección':'direccion',
+        'Ciudad':'ciudad',
+        'Región':'region',
+        'CódPostal':'codPostal',
+        'País':'pais',
+        'TelDomicilio':'telDomicilio',
+        'Extensión':'extension',
+        'Foto':'foto',
+        'Notas':'notas',
+        'Jefe':'jefe'
+    },
+    'shippingCompanies':{
+        'IdCompañíaEnvíos':'idCompaniaDeEnvio',
+        'NombreCompañía':'nombreCompania',
+        'Teléfono':'telefono'
+    },
+}

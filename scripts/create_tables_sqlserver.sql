@@ -2,6 +2,7 @@
 CREATE TABLE companiaDeEnvios (
   idCompaniaDeEnvio INT NOT NULL,
   nombreCompania VARCHAR(100) NULL,
+  telefono VARCHAR(45) NULL,
   PRIMARY KEY (idCompaniaDeEnvio))
 ;
 
