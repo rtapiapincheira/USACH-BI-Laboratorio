@@ -15,4 +15,3 @@ CENTC;Centro comercial Moctezuma;Francisco Chang;Gerente de marketing;Sierras de
 CHOPS;Chop-suey Chinese;Yang Wang;Propietario;Hauptstr. 29;Berna;;3012;Suiza;0452-076545;
 COMMI;Comércio Mineiro;Pedro Afonso;Asistente de ventas;Av. dos Lusíadas, 23;São Paulo;SP;05432-043;Brasil;(11) 555-7647;
 CONSH;Consolidated Holdings;Elizabeth Brown;Representante de ventas;Berkeley Gardens12  Brewery;Londres;;WX1 6LT;Reino Unido;(71) 555-2282;(71) 555-9199
-1;2;3;4;5;6;7;8;9;10;11
