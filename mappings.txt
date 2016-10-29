@@ -1,10 +1,10 @@
 {
-    'categories': {
+    'categorias':{
         'IdCategoría':'idCategoria',
         'NombreCategoría':'nombreCategoria',
         'Descripción':'descripcion'
     },
-    'clients': {
+    'clientes':{
         'IdCliente':'idCliente',
         'NombreCompañía':'nombreCompania',
         'NombreContacto':'nombreContacto',
@@ -17,7 +17,7 @@
         'Teléfono':'telefono',
         'Fax':'fax'
     },
-    'employees':{
+    'empleados':{
         'IdEmpleado':'idEmpleado',
         'Apellidos':'apellidos',
         'Nombre':'nombre',
@@ -36,9 +36,61 @@
         'Notas':'notas',
         'Jefe':'jefe'
     },
-    'shippingCompanies':{
+    'companiasDeEnvios':{
         'IdCompañíaEnvíos':'idCompaniaDeEnvio',
         'NombreCompañía':'nombreCompania',
         'Teléfono':'telefono'
     },
+    'productos':{
+        'IdProducto':'idProducto',
+        'NombreProducto':'nombreProducto',
+        'IdProveedor':'idProveedor',
+        'IdCategoría':'idCategoria',
+        'CantidadPorUnidad':'cantidadPorUnidad',
+        'PrecioUnidad':'precioUnidad',
+        'UnidadesEnExistencia':'unidadesEnExistencia',
+        'UnidadesEnPedido':'unidadesEnPedido',
+        'NivelNuevoPedido':'nivelNuevoPedido',
+        'Suspendido':'suspendido'
+    },
+    'proveedores':{
+        'IdProveedor':'idProveedor',
+        'NombreCompañía':'nombreCompania',
+        'NombreContacto':'nombreContacto',
+        'CargoContacto':'cargoContacto',
+        'Dirección':'direccion',
+        'Ciudad':'ciudad',
+        'Región':'region',
+        'CódPostal':'codPostal',
+        'País':'pais',
+        'Teléfono':'telefono',
+        'Fax':'fax',
+        'PáginaPrincipal':'paginaPrincipal'
+    },
+    'pedidos':{
+        'IdPedido':'idPedido',
+        'IdCliente':'idCliente',
+        'IdEmpleado':'idEmpleado',
+        'FechaPedido':'fechaPedido',
+        'FechaEntrega':'fechaEntrega',
+        'FechaEnvío':'fechaEnvio',
+        'FormaEnvío':'idFormaEnvio',
+        'Cargo':'cargo',
+        'Destinatario':'destinatario',
+        'DirecciónDestinatario':'direccionDestinatario',
+        'CiudadDestinatario':'ciudadDestinatario',
+        'RegiónDestinatario':'regionDestinatario',
+        'CódPostalDestinatario':'codPostalDestinatario',
+        'PaísDestinatario':'paisDestinatario'
+    },
+    'detallesDePedidos':{
+        'IdPedido':'idPedido',
+        'IdProducto':'idProducto',
+        'PrecioUnidad':'precioUnidad',
+        'Cantidad':'cantidad',
+        'Descuento':'descuento'
+    }
 }
+
+
+

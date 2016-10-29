@@ -1,9 +1,9 @@
 X -> Y
 (X tiene FK que referencia Y.id; es decir, primero borrar X, para borrar Y)
 
-Pedidos -> CompaniaEnvios
+Pedidos -> CompaniasDeEnvios
 Pedidos -> Clientes
-DetallePedidos -> Pedidos
+DetallesDePedidos -> Pedidos
 Pedidos -> Empleados
 DetallePedidos -> Productos
 Productos -> Categorias
@@ -14,7 +14,7 @@ Esto implica el siguiente orden
 
 Borrado en orden estricto:
 
- 1. DetallePedidos
+ 1. DetallesDePedidos
  2. Productos
  3. Pedidos
 
@@ -24,5 +24,5 @@ Borrado en cualquier orden (luego de los 3 anteriores):
  5. Proveedores
  6. Clientes
  7. Empleados
- 8. CompaniaDeEnvios
+ 8. CompaniasDeEnvios
 

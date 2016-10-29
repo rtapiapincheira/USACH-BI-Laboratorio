@@ -1,5 +1,5 @@
 
-CREATE TABLE companiaDeEnvios (
+CREATE TABLE companiasDeEnvios (
   idCompaniaDeEnvio INT NOT NULL,
   nombreCompania VARCHAR(100) NULL,
   telefono VARCHAR(45) NULL,
@@ -14,7 +14,7 @@ CREATE TABLE categorias (
 ;
 
 CREATE TABLE clientes (
-  idCliente INT NOT NULL,
+  idCliente VARCHAR(20) NOT NULL,
   nombreCompania VARCHAR(100) NULL,
   nombreContacto VARCHAR(100) NULL,
   cargoContacto VARCHAR(255) NULL,
@@ -52,13 +52,13 @@ CREATE TABLE empleados (
 
 CREATE TABLE pedidos (
   idPedido INT NOT NULL,
-  idCliente INT NOT NULL,
+  idCliente VARCHAR(20) NOT NULL,
   idEmpleado INT NOT NULL,
   fechaPedido DATETIME NULL,
   fechaEntrega DATETIME NULL,
   fechaEnvio DATETIME NULL,
   idFormaEnvio INT NOT NULL,
-  cargo VARCHAR(45) NULL,
+  cargo DECIMAL NULL,
   destinatario VARCHAR(45) NULL,
   direccionDestinatario TEXT NULL,
   ciudadDestinatario VARCHAR(100) NULL,
@@ -66,15 +66,12 @@ CREATE TABLE pedidos (
   codPostalDestinatario VARCHAR(45) NULL,
   paisDestinatario VARCHAR(45) NULL,
   PRIMARY KEY (idPedido),
-  CONSTRAINT fk_pedidos_clientes1
-    FOREIGN KEY (idCliente)
-    REFERENCES clientes (idCliente),
   CONSTRAINT fk_pedidos_empleados1
     FOREIGN KEY (idEmpleado)
     REFERENCES empleados (idEmpleado),
   CONSTRAINT fk_pedidos_companiaDeEnvios1
     FOREIGN KEY (idFormaEnvio)
-    REFERENCES companiaDeEnvios (idCompaniaDeEnvio))
+    REFERENCES companiasDeEnvios (idCompaniaDeEnvio))
 ;
 
 
@@ -82,7 +79,7 @@ CREATE TABLE proveedores (
   idProveedor INT NOT NULL,
   nombreCompania VARCHAR(100) NULL,
   nombreContacto VARCHAR(100) NULL,
-  cargoContactor VARCHAR(45) NULL,
+  cargoContacto VARCHAR(45) NULL,
   direccion TEXT NULL,
   ciudad VARCHAR(100) NULL,
   region VARCHAR(45) NULL,
@@ -100,8 +97,8 @@ CREATE TABLE productos (
   idCategoria INT NOT NULL,
   nombreProducto VARCHAR(100) NULL,
   idProveedor INT NOT NULL,
-  cantidadPorUnidad INT NULL,
-  precioUnidad DECIMAL NULL,
+  cantidadPorUnidad VARCHAR(150) NULL,
+  precioUnidad DECIMAL(10,2) NULL,
   unidadesEnExistencia INT NULL,
   unidadesEnPedido INT NULL,
   nivelNuevoPedido VARCHAR(45) NULL,
@@ -116,12 +113,12 @@ CREATE TABLE productos (
 ;
 
 
-CREATE TABLE detallesPedidos (
+CREATE TABLE detallesDePedidos (
   idPedido INT NOT NULL,
   idProducto INT NOT NULL,
-  precioUnidad DECIMAL NULL,
+  precioUnidad DECIMAL(10,2) NULL,
   cantidad INT NULL,
-  descuento DECIMAL NULL,
+  descuento DECIMAL(10,2) NULL,
   CONSTRAINT fk_detallesPedidos_pedidos1
     FOREIGN KEY (idPedido)
     REFERENCES pedidos (idPedido),

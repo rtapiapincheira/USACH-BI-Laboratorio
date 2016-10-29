@@ -22,13 +22,15 @@ def build_insert(inputfile, outputfile, mappingsfile, tablename):
     del(lines[0])
 
     newHeaders = [mapping[s] for s in headers]
-    newLines = [[s.replace("'", "\\'") for s in line.split(';')] for line in lines]
+    newLines = [[s.replace("'", "''") for s in line.split(';')] for line in lines]
     insertLines = ["('%s')" % "','".join(s) for s in newLines] 
 
+    headerStr = ','.join(newHeaders)
+    
     h = open(outputfile, 'w')
-    h.write('insert into(%s) values\n  ' % ','.join(newHeaders))
-    h.write(',\n  '.join(insertLines))
-    h.write('\n;')
+    for il in insertLines:
+        h.write('insert into %s (%s) values %s' % (tablename, headerStr, il))
+        h.write(';\n')
     h.close()
 
     
