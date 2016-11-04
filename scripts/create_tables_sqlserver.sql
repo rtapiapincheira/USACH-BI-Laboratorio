@@ -214,8 +214,8 @@ create table dm_productos (
 create table dm_ventas (
  id_fecha INT NOT NULL,
  id_empleado INT NOT NULL,
- id_ciudad INT NOT NULL,
- id_cliente INT NOT NULL,
+ id_ciudad  INT NOT NULL,
+ id_cliente varchar(100) NOT NULL,
  id_compania_envios INT NOT NULL,
  id_producto INT NOT NULL,
 
