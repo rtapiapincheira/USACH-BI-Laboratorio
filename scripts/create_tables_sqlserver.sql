@@ -127,3 +127,110 @@ CREATE TABLE detallesDePedidos (
     REFERENCES productos (idProducto))
 ;
 
+
+-- -------- Datamart tables
+
+create table dm_fechas (
+  id_fecha INT NOT NULL identity (1,1),
+  dia INT NOT NULL,
+  mes INT NOT NULL,
+  ano INT NOT NULL,
+
+  primary key (id_fecha)
+
+);
+
+create table dm_paises (
+  id_pais INT NOT NULL identity (1,1),
+  nombre varchar(100) NOT NULL,
+
+  primary key(id_pais)
+
+);
+
+create table dm_ciudades (
+ id_ciudad INT NOT NULL identity (1,1),
+ nombre varchar(100) NOT NULL,
+ id_pais INT NOT NULL,
+
+ primary key(id_ciudad),
+
+ constraint fk_pais foreign key(id_pais) references dm_paises (id_pais)
+
+);
+
+create table dm_empleados(
+  id_empleado INT NOT NULL identity (1,1),
+  nombre varchar(100) NOT NULL,
+  apellidos varchar(100) NOT NULL,
+  cargo varchar(100) NOT NULL,
+
+  primary key(id_empleado)
+);
+
+create table dm_compania_envios (
+  id_compania_envios INT NOT NULL identity (1,1),
+  nombre_compania varchar(100) NOT NULL,
+
+  primary key(id_compania_envios)
+
+);
+
+create table dm_categorias (
+  id_categoria INT NOT NULL identity (1,1),
+  nombre VARCHAR(100) NOT NULL,
+  descripcion VARCHAR(1000) NOT NULL,
+
+  primary key(id_categoria)
+
+);
+
+create table dm_proveedores(
+  id_proveedor INT NOT NULL identity (1,1),
+  nombre_compania varchar(100) NOT NULL,
+  nombre_contacto varchar(100) NOT NULL,
+  cargo_contacto varchar(100) NOT NULL,
+
+  primary key(id_proveedor)
+
+);
+
+create table dm_productos (
+  id_producto INT NOT NULL identity (1,1),
+  id_categoria INT NOT NULL,
+  nombre varchar(100) NOT NULL,
+  precio_unidad decimal(10,2) NOT NULL,
+  unidades_stock INT NOT NULL,
+  unidades_pedido INT NOT NULL,
+  id_proveedor INT NOT NULL,
+
+  primary key(id_producto),
+
+  constraint fk_proveedor foreign key (id_proveedor) references dm_proveedores (id_proveedor),
+  constraint fk_categoria foreign key (id_categoria) references dm_categorias (id_categoria)
+
+);
+
+create table dm_ventas (
+ id_fecha INT NOT NULL,
+ id_empleado INT NOT NULL,
+ id_ciudad INT NOT NULL,
+ id_cliente INT NOT NULL,
+ id_compania_envios INT NOT NULL,
+ id_producto INT NOT NULL,
+
+ num_productos INT NOT NULL,
+ stock INT NOT NULL,
+ pedidos INT NOT NULL,
+ venta_total DECIMAL(10,2),
+
+ primary key(id_fecha, id_empleado, id_ciudad, id_cliente, id_compania_envios, id_producto), /* id_venta */
+
+ constraint fk_fecha foreign key (id_fecha) references dm_fechas (id_fecha),
+ constraint fk_empleado foreign key (id_empleado) references dm_empleados (id_empleado),
+ constraint fk_ciudad foreign key (id_ciudad) references dm_ciudades (id_ciudad),
+ constraint fk_compania_envios foreign key (id_compania_envios) references dm_compania_envios (id_compania_envios),
+ constraint fk_producto foreign key (id_producto) references dm_productos (id_producto)
+
+);
+
