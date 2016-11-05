@@ -32,6 +32,7 @@ def build_insert(inputfile, outputfile, mappingsfile, tablename):
     headerStr = ','.join(newHeaders)
     
     h = open(outputfile, 'w')
+    h.write('delete from %s;\n' % tablename)
     for il in insertLines:
         h.write(clean_accents('insert into %s (%s) values %s' % (tablename, headerStr, il)))
         h.write(';\n')
