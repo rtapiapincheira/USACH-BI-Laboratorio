@@ -1,6 +1,12 @@
 import re
 import sys
 import os
+import unicodedata
+
+import insert_builder
+
+def clean_accents(s):
+    return insert_builder.clean_accents(s)
 
 def clean_file(inputfile, outputfile):
     print 'Reading from %s' % inputfile
@@ -36,7 +42,7 @@ def clean_file(inputfile, outputfile):
         parts = s.split(';')
         return ';'.join([r.strip('\t\n\r\b\v" ') for r in parts])
 
-    open(outputfile, 'w').write('\n'.join([ clean_string(s) for s in result]))
+    open(outputfile, 'w').write(clean_accents('\n'.join([ clean_string(s) for s in result])))
 
 def convert_price_file(iofile):
     if not os.path.isfile(iofile):
@@ -60,7 +66,7 @@ def convert_price_file(iofile):
     new_lines = [';'.join(row) for row in data2]
 
     h = open(iofile, 'w')
-    h.write('\n'.join(new_lines))
+    h.write(clean_accents('\n'.join(new_lines)))
     h.close()
 
 def print_help():

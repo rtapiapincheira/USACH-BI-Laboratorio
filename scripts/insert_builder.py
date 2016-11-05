@@ -1,6 +1,10 @@
 import re
 import sys
 import os
+import unicodedata
+
+def clean_accents(s):
+    return s;#s.decode('windows-1252').encode('windows-1252')
 
 def build_insert(inputfile, outputfile, mappingsfile, tablename):
     print 'Reading from %s' % inputfile
@@ -29,7 +33,7 @@ def build_insert(inputfile, outputfile, mappingsfile, tablename):
     
     h = open(outputfile, 'w')
     for il in insertLines:
-        h.write('insert into %s (%s) values %s' % (tablename, headerStr, il))
+        h.write(clean_accents('insert into %s (%s) values %s' % (tablename, headerStr, il)))
         h.write(';\n')
     h.close()
 
